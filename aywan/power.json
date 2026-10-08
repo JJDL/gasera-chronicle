@@ -1,5 +1,21 @@
 {
-  "updated": "2026-10-08T09:04:51.135Z",
+  "updated": "2026-10-08T09:06:50.951Z",
+  "day": 1,
+  "day1": "2026-10-08",
+  "date": "2026-10-08",
+  "likes": {
+    "social": 0,
+    "site": 0,
+    "total": 0
+  },
+  "reactions": 0,
+  "shares": 0,
+  "power": 0,
+  "level": 1,
+  "nextAt": 10,
+  "prevAt": 0,
+  "posts": [],
+  "levelUp": false,
   "ladder": [
     0,
     10,
@@ -20,7 +36,7 @@
   ],
   "proof": {
     "feed": "DESKTOP-QFE51PI",
-    "seq": 280,
-    "hash": "c4c83c4f9af00ad6e4a0a4cd8f0b16f032c6a321c7dbd2206cb275d28261a559"
+    "seq": 278,
+    "hash": "2c5bc1358ca7c666d9cd53ac861161f1c77b4a478b0308834991e2d84460e41d"
   }
 }
