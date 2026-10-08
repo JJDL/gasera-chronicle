@@ -14,5 +14,8 @@ This repository holds **no content**, only what lets anyone check that the recor
   spaces, without `hash` and `sig`), so with an entry in hand, `ots verify` on that JSON shows the
   Bitcoin block that proves the entry existed, unchanged, by that time.
 
+`aywan/power.json` is the one exception to "no content": Aywan's public like, reaction and share totals for his game on the
+AI Arcade, with the chronicle entry that proves each day's numbers.
+
 The git history of `heads.json` is itself part of the evidence: a head, once published, must still be
 present (same number, same hash) in every later copy of the chronicle.
