@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-09T12:03:25.594Z",
-  "day": 2,
+  "updated": "2026-10-09T23:15:25.674Z",
+  "day": 3,
   "day1": "2026-10-08",
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "likes": {
-    "social": 10,
+    "social": 12,
     "site": 0,
-    "total": 10
+    "total": 12
   },
   "reactions": 10,
   "shares": 0,
@@ -17,16 +17,8 @@
   "prevAt": 10,
   "posts": [],
   "care": null,
-  "levelUp": true,
-  "bosses": [
-    {
-      "day": 20735,
-      "level": 1,
-      "chance": 1,
-      "won": true,
-      "how": "cinematic (the count came after the 19:00 round)"
-    }
-  ],
+  "levelUp": false,
+  "bosses": [],
   "bossReady": false,
   "bossChance": 0.99,
   "ladder": [
@@ -49,7 +41,7 @@
   ],
   "proof": {
     "feed": "LAPTOP-0A6DECJ9",
-    "seq": 6,
-    "hash": "67a7f23be03aee4099835159510874f951659077d4e4388228f7d5d12686d0e6"
+    "seq": 7,
+    "hash": "2258b26b2f79f93f7d87d22e766bf5342dbd9483ff273a2d903808a3596389fa"
   }
 }
