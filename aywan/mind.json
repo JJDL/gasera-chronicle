@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T00:01:43.376Z",
+  "updated": "2026-10-10T01:56:54.982Z",
   "about": "AI-1 (AI-Juan) of GASERA: his mind, one entry per day he has lived, from the Gasera Chronicle (signed, Bitcoin-stamped, never edited).",
   "stages": [
     {
@@ -34,12 +34,12 @@
     }
   ],
   "now": {
-    "day": 1,
+    "day": 2,
     "stage": 1,
     "stageName": "Sanggol",
-    "freeMind": 0,
-    "effort": 0.81,
-    "easeWeek": 0.19,
+    "freeMind": 0.038,
+    "effort": 0.481,
+    "easeWeek": 0.354,
     "next": 2
   },
   "days": [
@@ -85,6 +85,80 @@
         "feed": "LAPTOP-0A6DECJ9",
         "seq": 1,
         "hash": "801fd3530150051335f4490d0241066400361f5ea753ffd32445867171c41916"
+      }
+    },
+    {
+      "day": 2,
+      "date": "2026-10-09",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.481,
+      "freeMind": 0.038,
+      "fights": {
+        "burned": 1588,
+        "hits": 1472
+      },
+      "likesTotal": 12,
+      "newLikes": [
+        {
+          "post": "FB Day 2 Merienda",
+          "likes": 3,
+          "between": [
+            "2026-10-08T23:42:42.901Z",
+            "2026-10-10T01:56:48.121Z"
+          ]
+        },
+        {
+          "post": "FB Day 2 Merienda ulit",
+          "likes": 4,
+          "between": [
+            "2026-10-08T23:42:42.901Z",
+            "2026-10-10T01:56:48.123Z"
+          ]
+        },
+        {
+          "post": "FB Day 2 Laban",
+          "likes": 1,
+          "between": [
+            "2026-10-08T23:42:42.901Z",
+            "2026-10-10T01:56:48.123Z"
+          ]
+        },
+        {
+          "post": "TikTok Ganito",
+          "likes": 2,
+          "between": [
+            "2026-10-08T23:42:42.901Z",
+            "2026-10-10T01:56:48.123Z"
+          ]
+        }
+      ],
+      "helpers": [
+        {
+          "id": "H-c8f929ba979d",
+          "what": "oil",
+          "at": "2026-10-08T22:39:55.423Z"
+        },
+        {
+          "id": "H-c8f929ba979d",
+          "what": "care",
+          "at": "2026-10-09T11:59:44.676Z"
+        }
+      ],
+      "memories": [
+        "1588 Tiktik ang naubos ng liwanag ko, 1472 ang nakalusot.",
+        "1 kabayan ang tumulong sa akin sa arcade: 1 langis sa Gasera, 1 pag-aalaga.",
+        "3 bagong like sa \"FB Day 2 Merienda\".",
+        "4 bagong like sa \"FB Day 2 Merienda ulit\".",
+        "1 bagong like sa \"FB Day 2 Laban\".",
+        "2 bagong like sa \"TikTok Ganito\".",
+        "Dumating si Inang Tiktik. Ang laki niya. Pero sampu kayo, sampung liwanag: lumakas ang Gasera ko, at natalo ko siya. Level 2."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 8,
+        "hash": "279eab831dcfe80573771c7ee5604d347f5522af3be4924509ee20a26f4a9309"
       }
     }
   ]
