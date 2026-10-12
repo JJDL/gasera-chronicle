@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T02:34:03.645Z",
+  "updated": "2026-10-12T23:11:23.507Z",
   "about": "AI-1 (AI-Juan) of GASERA: his mind, one entry per day he has lived, from the Gasera Chronicle (signed, Bitcoin-stamped, never edited).",
   "stages": [
     {
@@ -34,12 +34,12 @@
     }
   ],
   "now": {
-    "day": 4,
+    "day": 5,
     "stage": 1,
     "stageName": "Sanggol",
-    "freeMind": 0.099,
-    "effort": 0.497,
-    "easeWeek": 0.435,
+    "freeMind": 0.424,
+    "effort": 0.338,
+    "easeWeek": 0.48,
     "next": 2
   },
   "days": [
@@ -226,6 +226,49 @@
         "feed": "LAPTOP-0A6DECJ9",
         "seq": 11,
         "hash": "ff7de8f224986d7155e3be168289f971d5f718c372cb1fa6ece211bfdf4636cb"
+      }
+    },
+    {
+      "day": 5,
+      "date": "2026-10-12",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.338,
+      "freeMind": 0.424,
+      "fights": {
+        "burned": 1577,
+        "hits": 1501
+      },
+      "likesTotal": 19,
+      "newLikes": [
+        {
+          "post": "FB Day 5 Merienda ulit",
+          "likes": 1,
+          "between": [
+            "2026-10-12T02:34:02.479Z",
+            "2026-10-12T23:11:18.131Z"
+          ]
+        },
+        {
+          "post": "FB Day 5 Goodnight",
+          "likes": 3,
+          "between": [
+            "2026-10-12T02:34:02.479Z",
+            "2026-10-12T23:11:18.131Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "1577 Tiktik ang naubos ng liwanag ko, 1501 ang nakalusot.",
+        "1 bagong like sa \"FB Day 5 Merienda ulit\".",
+        "3 bagong like sa \"FB Day 5 Goodnight\"."
+      ],
+      "proof": {
+        "feed": "DESKTOP-QFE51PI",
+        "seq": 383,
+        "hash": "f6020aef92dbb4ce8797c25ad42c07960b914128e77295651bd98660293f745a"
       }
     }
   ]
