@@ -27,3 +27,4 @@ AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their a
 
 ## Days
 
+- [Day 8](day_008.md): 0 post(s)
