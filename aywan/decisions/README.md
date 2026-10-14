@@ -24,6 +24,7 @@ AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their a
 ## Human step-ins
 
 - 2026-10-14T12:09: Before AI-1's first real day, his engine was tested on 14 Oct 2026 by Claude Code on the owner's laptop in throwaway copies of the chronicle: two dry runs of a Day 8 decision (the first showed him choosing 3 posts and was described to the owner in chat; the second showed 4 posts and exposed two bugs he asked about himself: a likes total made low by failed reads, and a missing earliest posting time; both fixed). None of those dry runs was proposed, approved or posted, and they do not count as his Day 8. A cloud probe checked the routine's tools. His first real day is the cloud routine's run at 06:07 PHT on 15 Oct 2026. (`LAPTOP-0A6DECJ9#13`)
+- 2026-10-14T22:23: Day 8: AI-1's first cloud morning (06:07 PHT 15 Oct) made a valid decision, but opening the approval issue failed (Claude Code's cloud blocks GitHub GraphQL, which gh issue create uses). Claude Code on the owner's laptop switched the code to GitHub's REST API and ran the same propose step from the laptop, opening issue #1. His decision itself was not touched. (`LAPTOP-0A6DECJ9#15`)
 
 ## Days
 
