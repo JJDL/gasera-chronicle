@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T01:54:12.618Z",
+ "updated": "2026-10-15T01:54:17.266Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -150,6 +150,16 @@
     "seq": 15,
     "hash": "5ad335f187fa637e914c7e57bcf3b20ec7446597c12c213cc8b2d4785eb989d2",
     "at": "2026-10-14T22:23:01.672Z"
+   }
+  },
+  {
+   "note": "Day 8: the owner chose to re-make all 3 approved videos before they posted (first cloud renders choppy at ~9 fps, the body cam's walk behind the CR wall and the fight's end behind the new piano, overlay 19 vs his 20 likes). Re-made with a slower filming clock, camera collision on his page and his own likes count; the new videos replaced the old ones in the same Metricool posts. His words, titles, captions, times and platforms unchanged.",
+   "at": "2026-10-15T01:54:15.329Z",
+   "proof": {
+    "feed": "AI1-CLOUD",
+    "seq": 32,
+    "hash": "2864a8e178eff91454c69ea0988df149c584ec64bcd3396e2bfbfc0edba8aaf1",
+    "at": "2026-10-15T01:54:15.329Z"
    }
   }
  ],
