@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T05:38:23.426Z",
+ "updated": "2026-10-16T05:53:41.957Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -1517,8 +1517,67 @@
     }
    ],
    "ownerNotes": [],
-   "made": [],
-   "scheduled": [],
+   "made": [
+    {
+     "post": 1,
+     "video": {
+      "sha256": "3044c847ee425fc4a0a473cfc81ca49c69c5512161e8a42b06e9e4eda798f049",
+      "bytes": 6169414,
+      "url": "https://raw.githubusercontent.com/JJDL/gasera-releases/media/aywan/AIJuan_ai1_day_009_p1.mp4"
+     },
+     "at": "2026-10-16T10:00:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 51,
+      "hash": "28e5e6cf6895b5399c9d4f108b004b4a103dae835a6024ea9460f9f193a9fb35",
+      "at": "2026-10-16T05:42:52.754Z"
+     }
+    },
+    {
+     "post": 2,
+     "video": {
+      "sha256": "60e3f21f41b4ec213014d744a1f8887ee7c5eb0453f95303a29e2ef3fd11a6d1",
+      "bytes": 6832410,
+      "url": "https://raw.githubusercontent.com/JJDL/gasera-releases/media/aywan/AIJuan_ai1_day_009_p2.mp4"
+     },
+     "at": "2026-10-16T15:30:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 52,
+      "hash": "5ff1b595e17cfbc796a48bd93eee22f37b9edb5c683f494e330f3fb3ee5b461f",
+      "at": "2026-10-16T05:45:58.917Z"
+     }
+    },
+    {
+     "post": 3,
+     "video": {
+      "sha256": "0fcdcad1a7094ec157b2791ce10a8edb64a4d83ce4b8530cf454916a83e02287",
+      "bytes": 15224209,
+      "url": "https://raw.githubusercontent.com/JJDL/gasera-releases/media/aywan/AIJuan_ai1_day_009_p3.mp4"
+     },
+     "at": "2026-10-16T18:00:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 53,
+      "hash": "6864244f773023e5941cf3f408dc52ecc97c86ce6369cb994e3d04f3a133314b",
+      "at": "2026-10-16T05:52:47.715Z"
+     }
+    }
+   ],
+   "scheduled": [
+    {
+     "post": 1,
+     "network": "tiktok",
+     "metricoolId": "397439751",
+     "at": "2026-10-16T14:10:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 54,
+      "hash": "1a6f5475d999f6d36db22819852a920db575ff7663fc63e91cdeb62f9c9747f3",
+      "at": "2026-10-16T05:53:39.837Z"
+     }
+    }
+   ],
    "posted": [],
    "learned": null
   }
