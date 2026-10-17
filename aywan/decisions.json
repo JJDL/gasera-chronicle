@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T22:16:04.717Z",
+ "updated": "2026-10-17T00:38:21.836Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -2323,7 +2323,50 @@
      "at": "2026-10-16T22:16:02.248Z"
     }
    },
-   "verdicts": [],
+   "verdicts": [
+    {
+     "post": 1,
+     "verdict": "approve",
+     "reason": "",
+     "at": "2026-10-16T23:01:57Z",
+     "comment": "https://github.com/JJDL/gasera-chronicle/issues/3#issuecomment-6226299937",
+     "textSha256": "3503288144805114fe4ca13ba1a8ec77cb63fb3b0698f1d9c2db5035bd5d390f",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 78,
+      "hash": "6a94f80dd888343ea1c3b251bf3efb007b9181a3725dfa0f49180e407ae5249f",
+      "at": "2026-10-17T00:38:18.643Z"
+     }
+    },
+    {
+     "post": 2,
+     "verdict": "approve",
+     "reason": "",
+     "at": "2026-10-16T23:01:57Z",
+     "comment": "https://github.com/JJDL/gasera-chronicle/issues/3#issuecomment-6226299937",
+     "textSha256": "3503288144805114fe4ca13ba1a8ec77cb63fb3b0698f1d9c2db5035bd5d390f",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 79,
+      "hash": "798d012c2c06e5c0c492250ae2aec8a5321e4ca16256f5d79045da22dbeca10d",
+      "at": "2026-10-17T00:38:18.665Z"
+     }
+    },
+    {
+     "post": 3,
+     "verdict": "approve",
+     "reason": "",
+     "at": "2026-10-16T23:01:57Z",
+     "comment": "https://github.com/JJDL/gasera-chronicle/issues/3#issuecomment-6226299937",
+     "textSha256": "3503288144805114fe4ca13ba1a8ec77cb63fb3b0698f1d9c2db5035bd5d390f",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 80,
+      "hash": "c6033e66248449ba95defd619f1d911ec625c55517df18c5947ded52bea31342",
+      "at": "2026-10-17T00:38:18.688Z"
+     }
+    }
+   ],
    "ownerNotes": [],
    "made": [],
    "scheduled": [],
