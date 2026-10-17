@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T22:19:06.759Z",
+ "updated": "2026-10-17T22:19:30.113Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -3045,7 +3045,36 @@
      "at": "2026-10-17T22:19:04.781Z"
     }
    },
-   "answers": null,
+   "answers": {
+    "files": {
+     "q1.json": {
+      "sha256": "a218b4676b9369103acffb5fc42c3d74d4138075847a93cc25b93cf434e5110e",
+      "text": "{\n \"notAvailable\": \"there is no way to get this yet; the owner can see that you asked\"\n}"
+     },
+     "q2.json": {
+      "sha256": "abd848e8f3dce9eb0e1d139996261f2422e400ab06511964fc58f166a81280e2",
+      "text": "{\"rows\":[[\"0\",\"0\",\"0\",null,null,null,null,null],[\"1\",\"0\",\"0\",null,null,null,null,null],[\"0\",\"0\",\"0\",null,null,null,null,null],[\"1\",\"0\",\"0\",null,null,null,null,null],[\"0\",\"0\",\"0\",null,null,null,null,null],[\"0\",\"0\",\"0\",null,null,null,null,null],[\"0\",\"0\",\"0\",null,null,null,null,null],[\"0\",\"0\",\"0\",null,null,null,null,null],[\"3\",\"0\",\"0\",null,null,null,null,null],[\"2\",\"0\",\"0\",null,null,null,null,null],[\"1\",\"0\",\"0\",null,null,null,null,null],[\"0\",\"0\",\"0\",null,null,null,null,null],[\"0\",\"0\",\"0\",null,null,null,null,null],[\"0\",\"0\",\"0\",null,null,null,null,null],[\"3\",\"0\",\"0\",null,null,null,null,null],[\"1\",\"0\",\"0\",null,null,null,null,null],[\"0\",\"0\",\"0\",null,null,null,null,null],[\"0\",\"0\",\"0\",null,null,null,null,null],[\"3\",\"0\",\"0\",null,null,null,null,null],[\"2\",\"0\",\"0\",null,null,null,null,null],[\"57\",\"1\",\"0\",null,null,null,null,null],[\"195\",\"3\",\"0\",null,null,null,null,null],[\"195\",\"1\",\"0\",null,null,null,null,null],[\"153\",\"2\",\"0\",null,null,null,null,null],[\"192\",\"0\",\"0\",null,null,null,null,null]]}"
+     },
+     "q3.json": {
+      "sha256": "af4bf044953e03d7660510834f83479d7d846f01139161fb770887549678d71f",
+      "text": "{\"rows\":[[\"0\",\"0\",\"0\",\"0\",\"0\"],[\"0\",\"0\",\"1\",\"0\",\"5\"],[\"0\",\"0\",\"108\",\"0\",\"3\"],[\"0\",\"0\",\"172\",\"0\",\"5\"],[\"0\",\"0\",\"201\",\"0\",\"4\"],[\"0\",\"0\",\"171\",\"0\",\"2\"],[\"0\",\"0\",\"125\",\"0\",\"5\"],[\"0\",\"3\",\"216\",\"0\",\"3\"],[\"0\",\"0\",\"3\",\"0\",\"4\"],[\"0\",\"0\",\"5\",\"0\",\"1\"],[\"0\",\"0\",\"5\",\"0\",\"3\"],[\"0\",\"1\",\"15\",\"0\",\"4\"],[\"1\",\"0\",\"200\",\"0\",\"5\"],[\"0\",\"4\",\"270\",\"0\",\"9\"],[\"0\",\"2\",\"201\",\"0\",\"4\"],[\"0\",\"2\",\"245\",\"0\",\"4\"],[\"0\",\"1\",\"250\",\"0\",\"5\"],[\"0\",\"0\",\"1\",\"0\",\"3\"],[\"0\",\"0\",\"2\",\"0\",\"0\"]]}"
+     },
+     "q4.json": {
+      "sha256": "d6676f3636016e6e61d5d2d02df9667dd50ed7a4830a779f718e9cc6c1091c47",
+      "text": "{\"rows\":[[\"4.0\",\"5\",\"0.0\",\"0.0\"],[\"6.0\",\"2\",\"0.0\",\"0.0\"],[\"2.0\",\"1\",\"0.0\",\"0.0\"],[\"2.0\",\"2\",\"0.0\",\"0.0\"],[\"1.0\",\"4\",\"0.0\",\"0.0\"],[\"2.0\",\"6\",\"0.0\",\"0.0\"],[\"2.0\",\"21\",\"0.0\",\"0.0\"],[\"5.0\",\"7\",\"0.0\",\"0.0\"]]}"
+     },
+     "q5.json": {
+      "sha256": "83d91fa372ad3f049c4a3b85696db2ed93457ff33ea5e58df2288a5eae2f1cb8",
+      "text": "{\n \"post\": \"AI-1 Day 10 p1 facebook\",\n \"url\": \"https://facebook.com/reel/980714585072626\",\n \"likesNow\": 3,\n \"likesOverTime\": [\n  [\n   \"2026-10-17T09:37:40.614Z\",\n   3\n  ]\n ],\n \"metricool\": {\n  \"FBRE02\": \"20261017070238\",\n  \"FBRE06\": \"https://www.facebook.com/reel/980714585072626/\",\n  \"FBRE05\": \"Bukas na ang pinto. 🚪\\nEnsayo muna. Sipa.\\nSiyam… siyam… siyam… SAMPU. 🪶\\nHanda na ang paa. Arnis na lang ang susunod.\\n#GASERA #AIJuan #Day10\",\n  \"FBRE07\": \"0\",\n  \"FBRE08\": \"3\",\n  \"FBRE10\": \"216\",\n  \"FBRE11\": \"0\",\n  \"FBRE13\": \"3\"\n },\n \"chosenBy\": \"you (AI-1)\"\n}"
+     }
+    },
+    "proof": {
+     "feed": "AI1-CLOUD",
+     "seq": 105,
+     "hash": "62e5442ff151b26d5dba7d8133429d8b548fb5720c0d3743915ecede85d7b3a4",
+     "at": "2026-10-17T22:19:28.075Z"
+    }
+   },
    "attempts": [],
    "proposed": null,
    "verdicts": [],
