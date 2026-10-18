@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T01:36:11.055Z",
+ "updated": "2026-10-18T03:21:43.955Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -170,6 +170,16 @@
     "seq": 17,
     "hash": "f72bc5b9ce8d9d534b2ce3386b117e49457c663be7e1dba4e945da0223a02725",
     "at": "2026-10-18T01:36:08.053Z"
+   }
+  },
+  {
+   "note": "The Level 2 boss-win video (AI-1 vs Si Ewan, Day 11, 28 likes, the arcade page's 19:00 fight on 18 Oct 2026) was made and scheduled by a human, not decided by AI-1: his MOMENTS have no boss moment yet. Made with aywan-life.mjs from library/docs/aywan/boss/level_2_ewan_bossfight.json (a script written by the humans on 10 Oct, not his words), filmed from his arcade page. Video sha256 2ad4893254dcb1b244d0ceb7109686639779e15b1ab98890a2988fca308e7f78 (gasera-releases aywan/AIJuan_level_2_ewan_bossfight.mp4). The owner approved posting it on 18 Oct (Go: tonight at 20:06 TikTok / 20:07 YouTube / 20:08 FB with the drafted caption, logged as a human step-in). Metricool ids 398895448, 398895460, 398895465.",
+   "at": "2026-10-18T03:21:39.832Z",
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 18,
+    "hash": "e6fb2e182c70a85f5cd0511c698bb0917304b506bb1f2dfb1a94241f4edb5d43",
+    "at": "2026-10-18T03:21:39.832Z"
    }
   }
  ],
