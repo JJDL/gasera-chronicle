@@ -1,23 +1,22 @@
 {
-  "updated": "2026-10-13T21:17:14.397Z",
-  "day": 6,
+  "updated": "2026-10-18T01:34:43.394Z",
+  "day": 11,
   "day1": "2026-10-08",
-  "date": "2026-10-13",
+  "date": "2026-10-18",
   "likes": {
-    "social": 19,
+    "social": 28,
     "site": 0,
-    "total": 19
+    "total": 28
   },
-  "reactions": 10,
+  "reactions": 8,
   "shares": 0,
   "oil": 0,
-  "power": 10,
+  "power": 8,
   "level": 2,
   "nextAt": 25,
   "prevAt": 10,
   "posts": [],
   "care": {
-    "day": 20738,
     "visitors": 0,
     "story": 0,
     "eat": 0,
@@ -31,7 +30,7 @@
   },
   "levelUp": false,
   "bosses": [],
-  "bossReady": false,
+  "bossReady": true,
   "bossChance": 0.99,
   "ladder": [
     0,
@@ -52,8 +51,8 @@
     204800
   ],
   "proof": {
-    "feed": "DESKTOP-QFE51PI",
-    "seq": 382,
-    "hash": "e9fe8c85a4bd174abe865280712ec2ef84002e9170d2d342ccfb7df41a3359be"
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 16,
+    "hash": "d7c67d4ede5f6a848f85d3981236d3805a6b9f1c91f73451fc52c600cff17a68"
   }
 }
