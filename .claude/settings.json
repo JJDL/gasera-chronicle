@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "ask": [
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git push * --force*)",
+      "Bash(git push * -f)",
+      "Bash(git push * -f *)",
+      "Bash(git push * +*)"
+    ],
+    "deny": [
+      "Edit(/heads.json)",
+      "Edit(/proofs/**)",
+      "Edit(/keys/**)"
+    ]
+  }
+}
