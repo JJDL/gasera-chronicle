@@ -1,20 +1,20 @@
 {
-  "updated": "2026-10-18T01:34:43.394Z",
-  "day": 11,
+  "updated": "2026-10-18T22:26:28.955Z",
+  "day": 12,
   "day1": "2026-10-08",
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "likes": {
-    "social": 28,
+    "social": 29,
     "site": 0,
-    "total": 28
+    "total": 29
   },
-  "reactions": 8,
+  "reactions": 9,
   "shares": 0,
   "oil": 0,
-  "power": 8,
-  "level": 2,
-  "nextAt": 25,
-  "prevAt": 10,
+  "power": 9,
+  "level": 3,
+  "nextAt": 50,
+  "prevAt": 25,
   "posts": [],
   "care": {
     "visitors": 0,
@@ -28,10 +28,17 @@
     "laban": 0,
     "tabi": 0
   },
-  "levelUp": false,
-  "bosses": [],
-  "bossReady": true,
-  "bossChance": 0.99,
+  "levelUp": true,
+  "bosses": [
+    {
+      "day": 20744,
+      "level": 2,
+      "chance": 0.99,
+      "won": true
+    }
+  ],
+  "bossReady": false,
+  "bossChance": 0.98,
   "ladder": [
     0,
     10,
@@ -51,8 +58,8 @@
     204800
   ],
   "proof": {
-    "feed": "LAPTOP-0A6DECJ9",
-    "seq": 16,
-    "hash": "d7c67d4ede5f6a848f85d3981236d3805a6b9f1c91f73451fc52c600cff17a68"
+    "feed": "AI1-CLOUD",
+    "seq": 110,
+    "hash": "ad550afb2793732d26d3a8969455d69a1b39f579bec47378616ba23172e3b802"
   }
 }
