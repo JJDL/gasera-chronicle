@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T11:56:52.274Z",
+ "updated": "2026-10-19T12:06:51.341Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -3563,8 +3563,8 @@
      "proof": {
       "feed": "AI1-CLOUD",
       "seq": 116,
-      "hash": "7c26411adf30e5a6d5bdeac9458ba6d6f41db15d828130d532f7ed37c9ae3b41",
-      "at": "2026-10-19T11:38:05.768Z"
+      "hash": "2fea1727c297299128e868bae39df64c1dd8860eedfec3b34e00319cab9d2860",
+      "at": "2026-10-19T11:44:33.611Z"
      }
     },
     {
@@ -3577,8 +3577,8 @@
      "proof": {
       "feed": "AI1-CLOUD",
       "seq": 117,
-      "hash": "7a844212b38c4db3acbb9fbc54a24197b4336c07da7eaa2bb8301da67b46ea32",
-      "at": "2026-10-19T11:38:05.787Z"
+      "hash": "5dbff5bad8b234cb06b63e54c16f2d4d9ead21df936336c6c30a6afb09416dbd",
+      "at": "2026-10-19T11:44:33.659Z"
      }
     },
     {
@@ -3591,8 +3591,8 @@
      "proof": {
       "feed": "AI1-CLOUD",
       "seq": 118,
-      "hash": "81657b46f14af92ca54d883885dd63f9fdc8f8db888cc5ac92e52264b1f9fe69",
-      "at": "2026-10-19T11:38:05.802Z"
+      "hash": "c5c7d27a1abda019ba7b544b23d2c17f299fc3979803541aa3f73992c61883bf",
+      "at": "2026-10-19T11:44:33.688Z"
      }
     }
    ],
@@ -3601,46 +3601,16 @@
     {
      "post": 1,
      "video": {
-      "sha256": "a3a8f4a1720bf9976d512f09deb6829e92727f8cc4070ece7bacd7d33819aa61",
-      "bytes": 6477926,
+      "sha256": "42a01c5f4ec8e5c01774dcf609a66856f2b6c58f8425e7d7ae04ea3325bf0dd2",
+      "bytes": 6260923,
       "url": "https://raw.githubusercontent.com/JJDL/gasera-releases/media/aywan/AIJuan_ai1_day_012_p1.mp4"
      },
      "at": "2026-10-19T15:00:00+08:00",
      "proof": {
       "feed": "AI1-CLOUD",
       "seq": 119,
-      "hash": "37e524baf8600e0fbbfc6097babd7cca70f182b20ad41d2f1c7f560243fbb892",
-      "at": "2026-10-19T11:42:31.122Z"
-     }
-    },
-    {
-     "post": 2,
-     "video": {
-      "sha256": "9ffd60b6b62405d2451c03c206fecf5e829588386f74ae05632bd85068084666",
-      "bytes": 17076633,
-      "url": "https://raw.githubusercontent.com/JJDL/gasera-releases/media/aywan/AIJuan_ai1_day_012_p2.mp4"
-     },
-     "at": "2026-10-19T18:00:00+08:00",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 120,
-      "hash": "774bf49f2ef30c18926a6bc0f2c10cbd68868830d3b48ed0ba011cccdd220160",
-      "at": "2026-10-19T11:50:22.475Z"
-     }
-    },
-    {
-     "post": 3,
-     "video": {
-      "sha256": "818c0363922472d41b2fb33e1af42a7a6e2671547cff22ab4a0151960dc0a6ee",
-      "bytes": 4473590,
-      "url": "https://raw.githubusercontent.com/JJDL/gasera-releases/media/aywan/AIJuan_ai1_day_012_p3.mp4"
-     },
-     "at": "2026-10-19T21:00:00+08:00",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 121,
-      "hash": "3f1d2544e8847e5b048f3a0980dd29b48c0ee8b186c11afcb8b5d175821343c7",
-      "at": "2026-10-19T11:55:20.779Z"
+      "hash": "1d4041712b7c0a0f1978f1f7ccb1c84304be824309cfdd59f55e9f71ec577424",
+      "at": "2026-10-19T11:49:06.853Z"
      }
     }
    ],
@@ -3648,109 +3618,13 @@
     {
      "post": 1,
      "network": "facebook",
-     "metricoolId": "399942189",
-     "at": "2026-10-19T20:11:00+08:00",
+     "metricoolId": "399954261",
+     "at": "2026-10-19T20:22:00+08:00",
      "proof": {
       "feed": "AI1-CLOUD",
-      "seq": 122,
-      "hash": "dd5b62dbf744780f4e95cd72d75e7a3d7c4a0d6fbc363562d45ad4c1d1d8e093",
-      "at": "2026-10-19T11:56:10.762Z"
-     }
-    },
-    {
-     "post": 1,
-     "network": "tiktok",
-     "metricoolId": "399942237",
-     "at": "2026-10-19T20:11:00+08:00",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 123,
-      "hash": "98e8b7c20a07cacd5c4cd7cc9af9d860353683c5c33801d5dfd04d5dba01260c",
-      "at": "2026-10-19T11:56:16.955Z"
-     }
-    },
-    {
-     "post": 1,
-     "network": "youtube",
-     "metricoolId": "399942287",
-     "at": "2026-10-19T20:11:00+08:00",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 124,
-      "hash": "89b59c4129bc050bd761607310cac8de5620647f7b80401710da523de8961092",
-      "at": "2026-10-19T11:56:21.655Z"
-     }
-    },
-    {
-     "post": 2,
-     "network": "facebook",
-     "metricoolId": "399942363",
-     "at": "2026-10-19T20:11:00+08:00",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 125,
-      "hash": "4c5c405b4dd88715031563bce052544e5a2d5493ff384db1590d5310f93233c9",
-      "at": "2026-10-19T11:56:26.535Z"
-     }
-    },
-    {
-     "post": 2,
-     "network": "tiktok",
-     "metricoolId": "399942412",
-     "at": "2026-10-19T20:11:00+08:00",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 126,
-      "hash": "b170b011808ae589e24438a1ecf3ca20fb29c977d40ab53f68fca03fe9a1d4b0",
-      "at": "2026-10-19T11:56:31.202Z"
-     }
-    },
-    {
-     "post": 2,
-     "network": "youtube",
-     "metricoolId": "399942486",
-     "at": "2026-10-19T20:11:00+08:00",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 127,
-      "hash": "57a818076faf41ef5c6d1a0e36ae50ee271dc7fcfcee9a0e0d68743ab51df83d",
-      "at": "2026-10-19T11:56:36.136Z"
-     }
-    },
-    {
-     "post": 3,
-     "network": "facebook",
-     "metricoolId": "399942545",
-     "at": "2026-10-19T21:00:00+08:00",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 128,
-      "hash": "bd50093d69ddecf443e137d87c842df49174f91a83a2e8ab84ec2f69e3af7890",
-      "at": "2026-10-19T11:56:40.318Z"
-     }
-    },
-    {
-     "post": 3,
-     "network": "tiktok",
-     "metricoolId": "399942581",
-     "at": "2026-10-19T21:00:00+08:00",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 129,
-      "hash": "37fe44484a6865c59969f0f1b840c5e103233a94d64acbb037c3c9609e63ff26",
-      "at": "2026-10-19T11:56:45.779Z"
-     }
-    },
-    {
-     "post": 3,
-     "network": "youtube",
-     "metricoolId": "399942616",
-     "at": "2026-10-19T21:00:00+08:00",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 130,
-      "hash": "5c447e8e47ec774966ae2cbcff967156419ad36c2dad42f5ca61b5552af281e1",
-      "at": "2026-10-19T11:56:50.632Z"
+      "seq": 120,
+      "hash": "251b5e5ab07cd6cdfa7583258d4a7f6a13027184ac1b4dab1184438999133677",
+      "at": "2026-10-19T12:06:48.599Z"
      }
     }
    ],
