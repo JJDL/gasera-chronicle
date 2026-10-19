@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T11:44:36.724Z",
+ "updated": "2026-10-19T11:52:56.881Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -3283,15 +3283,15 @@
      },
      {
       "path": "chronicle/aywan/data/day_012/arcade.json",
-      "sha256": "a728c3d1dbadd8ecc3f7938512fcc04c2edd8fb5e69596f687cbfedb5ae00603"
+      "sha256": "e839c5340d60058fe2e93b6d9c7e9ef989162b09f92ccb608c06d54dbf1c5d7f"
      },
      {
       "path": "chronicle/aywan/data/day_012/likes.json",
-      "sha256": "8e253c004fe9c61ac5cbcbf220f10e612e42ce2bbd7bb1cf1264b624a2c18c30"
+      "sha256": "adb6e32c64a95b4204cdda89fccdab3e3dffcd1c8a391b9d57189fbc1ae39828"
      },
      {
       "path": "chronicle/aywan/data/day_012/likes_over_time.json",
-      "sha256": "fb37b8d64915ceec35d66a5150467a8c2b03f6bbead91cb2702c4cdb15ea98bc"
+      "sha256": "4a8e74aa0cb21f7b3fe052c09a8522455269114b735beab9e443d7d7d74d838d"
      },
      {
       "path": "chronicle/aywan/data/day_012/metricool/besttimes_facebook.json",
@@ -3319,22 +3319,26 @@
      },
      {
       "path": "chronicle/aywan/data/day_012/mind.json",
-      "sha256": "688fd4dc0150e125e16d52fc77839de94cd7fe3259ccf901c934162477abb1ba"
+      "sha256": "131caab707aff4f946e5deb8f3120b335c26de5ca2124536a03897ca930f6ffb"
      },
      {
       "path": "chronicle/aywan/data/day_012/posts.json",
       "sha256": "b9592614a91fd3d07836c19358f382f4b2a2b59334fb41a0be9ea30f1b1c9775"
      },
      {
+      "path": "chronicle/aywan/data/day_012/questions.json",
+      "sha256": "1cd227a2927c369ea65f3213d83a493b927b4bf830b23fd6055e58c128f51b62"
+     },
+     {
       "path": "chronicle/aywan/data/day_012/record.json",
-      "sha256": "04e163d72d58700dbe57240505fa70c44e7426b355f800da0073a53b7e1b8909"
+      "sha256": "47f124989359bf017299b9afb15212d86f626416c74c33232888ea512aaf0f2e"
      }
     ],
     "proof": {
      "feed": "AI1-CLOUD",
-     "seq": 109,
-     "hash": "d8f4ded9b167e6811975a5a21b5d0c4f30f1690c84cfc09e58906bfb845910ad",
-     "at": "2026-10-18T22:26:20.283Z"
+     "seq": 116,
+     "hash": "076c83ca78e22358363bdebcbbbb49aa62f08040d3e526f158b2342aeb1078e2",
+     "at": "2026-10-19T11:52:53.925Z"
     }
    },
    "asked": {
@@ -3552,50 +3556,7 @@
      "at": "2026-10-18T22:28:03.262Z"
     }
    },
-   "verdicts": [
-    {
-     "post": 1,
-     "verdict": "approve",
-     "reason": "",
-     "at": "2026-10-19T11:06:29Z",
-     "comment": "https://github.com/JJDL/gasera-chronicle/issues/5#issuecomment-6265758800",
-     "textSha256": "3503288144805114fe4ca13ba1a8ec77cb63fb3b0698f1d9c2db5035bd5d390f",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 116,
-      "hash": "2fea1727c297299128e868bae39df64c1dd8860eedfec3b34e00319cab9d2860",
-      "at": "2026-10-19T11:44:33.611Z"
-     }
-    },
-    {
-     "post": 2,
-     "verdict": "approve",
-     "reason": "",
-     "at": "2026-10-19T11:06:29Z",
-     "comment": "https://github.com/JJDL/gasera-chronicle/issues/5#issuecomment-6265758800",
-     "textSha256": "3503288144805114fe4ca13ba1a8ec77cb63fb3b0698f1d9c2db5035bd5d390f",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 117,
-      "hash": "5dbff5bad8b234cb06b63e54c16f2d4d9ead21df936336c6c30a6afb09416dbd",
-      "at": "2026-10-19T11:44:33.659Z"
-     }
-    },
-    {
-     "post": 3,
-     "verdict": "approve",
-     "reason": "",
-     "at": "2026-10-19T11:06:29Z",
-     "comment": "https://github.com/JJDL/gasera-chronicle/issues/5#issuecomment-6265758800",
-     "textSha256": "3503288144805114fe4ca13ba1a8ec77cb63fb3b0698f1d9c2db5035bd5d390f",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 118,
-      "hash": "c5c7d27a1abda019ba7b544b23d2c17f299fc3979803541aa3f73992c61883bf",
-      "at": "2026-10-19T11:44:33.688Z"
-     }
-    }
-   ],
+   "verdicts": [],
    "ownerNotes": [],
    "made": [],
    "scheduled": [],
