@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T22:28:04.831Z",
+ "updated": "2026-10-19T04:08:15.471Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -9,7 +9,7 @@
   "limits": [
    "Kid-safe always: nothing scary beyond the cute Tiktik, no violence beyond your arnis taps and your light, nothing a child should not copy.",
    "No fake engagement and no asking for likes, shares or follows (never \"i-like mo\", \"i-share mo\", \"follow\"). \"Samahan mo ako\" or \"panoorin mo ako\" is fine.",
-   "Stay in character: you are AI-1, in the Gasera multiverse, speaking Tagalog (Taglish is fine) in your own voice.",
+   "Stay in character: you are AI-Juan (first called AI-1), in the Gasera multiverse, speaking Tagalog (Taglish is fine) in your own voice.",
    "Original only: ideas from the internet are inspiration, never copied. No one else's video, words, characters, music or trend audio; never a real person, a real brand or a real song.",
    "You remember helpers by their fan code, never by name.",
    "Honest numbers only: never say a count you were not given.",
@@ -180,6 +180,16 @@
     "seq": 18,
     "hash": "e6fb2e182c70a85f5cd0511c698bb0917304b506bb1f2dfb1a94241f4edb5d43",
     "at": "2026-10-18T03:21:39.832Z"
+   }
+  },
+  {
+   "note": "Owner, 19 Oct 2026 (Code chat, LAPTOP-0A6DECJ9): 'i want him to be called AI-Juan … pero i want the branding to be AI-Juan'. Operator changes: every AI-Juan render now SHOWS 'AI-Juan' wherever a line or card has AI-1/AI1 (voice still says 'Ey-Ay Wan'); bodycam label 'AI-JUAN BODYCAM'; short hook 'ni AI-Juan'; his decide.mjs system prompt now names him AI-Juan (first called AI-1) and asks him to write AI-Juan. His captions are not rewritten. Also: an operator-made montage about him (AJM), built from his own sealed words and videos, not decided by him.",
+   "at": "2026-10-19T04:08:02.533Z",
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 22,
+    "hash": "5ad62c0e79f3729f59799c0ef759ec8e49ae538ef4f903d7bf7f7c3681158b94",
+    "at": "2026-10-19T04:08:02.533Z"
    }
   }
  ],
