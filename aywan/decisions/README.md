@@ -32,7 +32,7 @@ AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their a
 
 ## Days
 
-- [Day 13](day_013.md): 0 post(s)
+- [Day 13](day_013.md): 3 post(s)
 - [Day 12](day_012.md): 3 post(s) · [approval](https://github.com/JJDL/gasera-chronicle/issues/5)
 - [Day 11](day_011.md): 3 post(s) · [approval](https://github.com/JJDL/gasera-chronicle/issues/4)
 - [Day 10](day_010.md): 3 post(s) · [approval](https://github.com/JJDL/gasera-chronicle/issues/3)
