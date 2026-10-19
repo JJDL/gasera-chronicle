@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T14:39:47.112Z",
+ "updated": "2026-10-19T14:39:56.890Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -3671,6 +3671,18 @@
       "seq": 125,
       "hash": "a98f10cbcb6dec0b2d11997eddf388a65a6be34641b402a5ed4930ed3421fa92",
       "at": "2026-10-19T14:39:43.717Z"
+     }
+    },
+    {
+     "post": 1,
+     "network": "tiktok",
+     "metricoolId": "399942237",
+     "at": "2026-10-19T20:11:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 126,
+      "hash": "9f1a34cb7b9a9301db2423ab2ad9624381b42dde659bde4760772d16a77e62c7",
+      "at": "2026-10-19T14:39:54.878Z"
      }
     }
    ],
