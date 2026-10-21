@@ -5,7 +5,7 @@ AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their a
 ## Rules of the experiment
 
 **What he wants:**
-- More likes. They add up and never reset: 25 opens the door to your Level 2 boss, Si Ewan; then 50, 100, 200 and up.
+- More likes. They add up and never reset: 10 opened your Level 1 boss (Inang Tiktik) and 25 your Level 2 boss (Si Ewan), both beaten; 50 opens the door to your Level 3 boss, the Tikbalang from the Gaseraverse (he walks you in circles in the dark because he is lost himself); then 100, 200 and up.
 - To trend: more people seeing your posts, and coming back to you.
 
 **What he can never do:**
@@ -32,6 +32,7 @@ AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their a
 - 2026-10-20T02:30: 20 Oct 2026, owner's request (Code chat): standing auto-approval. 'auto approve it everytime but the daily issues in Github must still be there.' From Day 14 on, a scheduled task on the owner's account replies 'approve all' at 06:52 PHT on each day's approval issue in JJDL/gasera-chronicle, about 30 minutes after the morning routine opens it; that reply says it is an auto-approval under this standing order. It skips a day whose checks failed and any issue the owner has already answered. The issues are still opened and sealed every day and left open, and the owner can still veto a post by replying before it goes out. AI-1's words, decisions and the rules he is given are unchanged. (`AI1-CLOUD#165`)
 - 2026-10-20T22:24: Owner, 21 Oct 2026 (Code chat, LAPTOP-0A6DECJ9): 'Post the full 2:36 montage on YouTube and Facebook, and make a 60-second cut for TikTok and the daily slots.' The operator-made AI-Juan montage (AJM, not his decision) is scheduled: Fri 23 Oct TikTok 18:30 (59 s cut, Metricool 401577382), FB 18:32 (full, 401577482), YouTube 18:34 (full, 401577515); Sat 24 Oct FB Reel 16:32 (cut, 401577537), YouTube Short 16:34 (cut, 401577559). Release aijuan-montage on gasera-releases. His words in it are verbatim from his sealed decisions (Days 8, 9, 10, 11, 12). (`LAPTOP-0A6DECJ9#23`)
 - 2026-10-21T00:55: Owner, 21 Oct 2026 08:53 (Code chat): 'Post it now instead.' The AI-Juan montage moved from Fri 23 Oct to today: TikTok 09:05 (59 s cut, Metricool 401652032), FB 09:07 (full, 401652045), YouTube 09:09 (full, 401652055). The Sat 24 Oct FB Reel + YouTube Short of the cut stay as scheduled. (`LAPTOP-0A6DECJ9#34`)
+- 2026-10-21T04:25: Owner, 21 Oct 2026 (Code chat, LAPTOP-0A6DECJ9): AI-Juan's Level 3 boss is the Tikbalang ('let's select someone from the Gaseraverse… a villain now but a friend after', then picked the Tikbalang). Operator changes: power.mjs BOSSES[3] = Tikbalang; the arcade page has him as boss 3 (ai-arcade-hub 3d629a1, not deployed); AI-Juan's decide.mjs prompt now names his beaten bosses and the Tikbalang behind the 50 door (he asked on Day 12 what the boss at 50 is called). Also an operator-made post about him, 'Paano kung totoo ang Tamagotchi?' (AJT), not his decision; his words in it are verbatim from Days 9 and 10. (`LAPTOP-0A6DECJ9#38`)
 
 ## Days
 

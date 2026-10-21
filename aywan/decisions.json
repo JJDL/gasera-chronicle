@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-21T01:00:37.636Z",
+ "updated": "2026-10-21T04:25:52.549Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
-   "More likes. They add up and never reset: 25 opens the door to your Level 2 boss, Si Ewan; then 50, 100, 200 and up.",
+   "More likes. They add up and never reset: 10 opened your Level 1 boss (Inang Tiktik) and 25 your Level 2 boss (Si Ewan), both beaten; 50 opens the door to your Level 3 boss, the Tikbalang from the Gaseraverse (he walks you in circles in the dark because he is lost himself); then 100, 200 and up.",
    "To trend: more people seeing your posts, and coming back to you."
   ],
   "limits": [
@@ -220,6 +220,16 @@
     "seq": 34,
     "hash": "edd1ff557c4bf969e49c64e6508c2911a166a8f9bf72d6aaf630b55eaddc46d4",
     "at": "2026-10-21T00:55:05.412Z"
+   }
+  },
+  {
+   "note": "Owner, 21 Oct 2026 (Code chat, LAPTOP-0A6DECJ9): AI-Juan's Level 3 boss is the Tikbalang ('let's select someone from the Gaseraverse… a villain now but a friend after', then picked the Tikbalang). Operator changes: power.mjs BOSSES[3] = Tikbalang; the arcade page has him as boss 3 (ai-arcade-hub 3d629a1, not deployed); AI-Juan's decide.mjs prompt now names his beaten bosses and the Tikbalang behind the 50 door (he asked on Day 12 what the boss at 50 is called). Also an operator-made post about him, 'Paano kung totoo ang Tamagotchi?' (AJT), not his decision; his words in it are verbatim from Days 9 and 10.",
+   "at": "2026-10-21T04:25:40.196Z",
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 38,
+    "hash": "bebfadd535bebc1f18287c60f3385c3a78f582553afa5e702c0bbe05bef0ed43",
+    "at": "2026-10-21T04:25:40.196Z"
    }
   }
  ],
