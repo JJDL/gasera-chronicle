@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T00:53:43.089Z",
+ "updated": "2026-10-22T01:00:19.866Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -230,16 +230,6 @@
     "seq": 38,
     "hash": "bebfadd535bebc1f18287c60f3385c3a78f582553afa5e702c0bbe05bef0ed43",
     "at": "2026-10-21T04:25:40.196Z"
-   }
-  },
-  {
-   "note": "22 Oct 2026, owner's request (Code chat): retry Day 13 post 1 on YouTube. It failed on 20 Oct at 15:00 with YouTube's 'The user has exceeded the number of videos they may upload' (the channel's upload limit; Facebook and TikTok went out on time). The same Metricool post was moved to 22 Oct 2026 09:00 PHT (new Metricool id 402694668), with his caption, title and video unchanged. The time and day are the owner's, not AI-1's.",
-   "at": "2026-10-22T00:53:38.797Z",
-   "proof": {
-    "feed": "AI1-CLOUD",
-    "seq": 213,
-    "hash": "9faf5a72af8d1eee7ab8039ab14b3b356edec9bc7166f2aaee7a99afa908351d",
-    "at": "2026-10-22T00:53:38.797Z"
    }
   }
  ],
@@ -4678,18 +4668,6 @@
       "hash": "15a5e6bd55b6cf294f71927f9baeea40d35ea05234ce2e2b5f3ea12ed19bf6bd",
       "at": "2026-10-20T01:47:54.671Z"
      }
-    },
-    {
-     "post": 1,
-     "network": "youtube",
-     "metricoolId": "402694668",
-     "at": "2026-10-22T09:00:00+08:00",
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 212,
-      "hash": "25f2e278a67e6be5165051187e48b6c98adb50f5458f0b4ffd92735bba2fada0",
-      "at": "2026-10-22T00:53:37.084Z"
-     }
     }
    ],
    "posted": [
@@ -6157,10 +6135,112 @@
      "at": "2026-10-21T22:17:31.302Z"
     }
    },
-   "verdicts": [],
+   "verdicts": [
+    {
+     "post": 1,
+     "verdict": "approve",
+     "reason": "",
+     "at": "2026-10-21T22:53:02Z",
+     "comment": "https://github.com/JJDL/gasera-chronicle/issues/8#issuecomment-6328340460",
+     "textSha256": "c9957083006a8307c64f58cf9318162a15893981f6452683d3c6669a7334f442",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 212,
+      "hash": "44bf65af461a5e5e37343725bf488dd5e4ef66a4e839cc774561b2239add67a9",
+      "at": "2026-10-22T00:37:59.885Z"
+     }
+    },
+    {
+     "post": 2,
+     "verdict": "approve",
+     "reason": "",
+     "at": "2026-10-21T22:53:02Z",
+     "comment": "https://github.com/JJDL/gasera-chronicle/issues/8#issuecomment-6328340460",
+     "textSha256": "c9957083006a8307c64f58cf9318162a15893981f6452683d3c6669a7334f442",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 213,
+      "hash": "0319b8e6e091d96f4f09778a8f5470cd342b10bb441cee0caba1a27860ce4708",
+      "at": "2026-10-22T00:37:59.907Z"
+     }
+    },
+    {
+     "post": 3,
+     "verdict": "approve",
+     "reason": "",
+     "at": "2026-10-21T22:53:02Z",
+     "comment": "https://github.com/JJDL/gasera-chronicle/issues/8#issuecomment-6328340460",
+     "textSha256": "c9957083006a8307c64f58cf9318162a15893981f6452683d3c6669a7334f442",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 214,
+      "hash": "a972632e6c1c2c8384abf2d9e6d1bc46aec771d3037ab3f544c4842ed164cfe9",
+      "at": "2026-10-22T00:37:59.927Z"
+     }
+    }
+   ],
    "ownerNotes": [],
-   "made": [],
-   "scheduled": [],
+   "made": [
+    {
+     "post": 1,
+     "video": {
+      "sha256": "150015a5f62562057c7a4f40ac54caae013eba1e42ac467f207207a850793d1b",
+      "bytes": 6991343,
+      "url": "https://raw.githubusercontent.com/JJDL/gasera-releases/media/aywan/AIJuan_ai1_day_015_p1.mp4"
+     },
+     "at": "2026-10-22T15:00:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 215,
+      "hash": "0f7d044c355d9f1b8ed809b68ab91b7ec5bb8c7fb85997301d5e3e5949d3d7fe",
+      "at": "2026-10-22T00:42:44.100Z"
+     }
+    },
+    {
+     "post": 2,
+     "video": {
+      "sha256": "6a5239519ed8ef1804c330e1d73e0d2364711cee036b17ea16f8403c366cb09c",
+      "bytes": 11640092,
+      "url": "https://raw.githubusercontent.com/JJDL/gasera-releases/media/aywan/AIJuan_ai1_day_015_p2.mp4"
+     },
+     "at": "2026-10-22T18:00:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 216,
+      "hash": "00c59613a78c9e714c3e065a9ff08213349222892f94225feda4fe27e63ccf2e",
+      "at": "2026-10-22T00:47:21.116Z"
+     }
+    },
+    {
+     "post": 3,
+     "video": {
+      "sha256": "f00cf24a88f16d0739c84e0b92e116d305691008f03fdf0d688d6ae315e90671",
+      "bytes": 5762209,
+      "url": "https://raw.githubusercontent.com/JJDL/gasera-releases/media/aywan/AIJuan_ai1_day_015_p3.mp4"
+     },
+     "at": "2026-10-22T21:00:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 217,
+      "hash": "c9970314df3a9443a10f1ba01ed949b95a04d65e6e66a6d88f33c1c4635334e3",
+      "at": "2026-10-22T00:51:03.332Z"
+     }
+    }
+   ],
+   "scheduled": [
+    {
+     "post": 1,
+     "network": "facebook",
+     "metricoolId": "402697142",
+     "at": "2026-10-22T15:00:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 218,
+      "hash": "6bf69f4f7460f2c89dc78c05696c733cb8a52a57081026cc241db99a50a7a651",
+      "at": "2026-10-22T01:00:15.358Z"
+     }
+    }
+   ],
    "posted": [],
    "learned": null
   }
