@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T04:38:43.482Z",
+ "updated": "2026-10-25T05:38:34.714Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -8793,8 +8793,8 @@
      "proof": {
       "feed": "AI1-CLOUD",
       "seq": 324,
-      "hash": "f78315fd2f806b60aae5ea5344a720dee87d5e7b74780afc40e0e338597ccf2b",
-      "at": "2026-10-25T04:38:33.399Z"
+      "hash": "fcd12003a3fad696957027773c8dd91ce1f2a3e3590c2a89674c560937b4d218",
+      "at": "2026-10-25T05:38:29.749Z"
      }
     },
     {
@@ -8807,8 +8807,8 @@
      "proof": {
       "feed": "AI1-CLOUD",
       "seq": 325,
-      "hash": "5629da83166add9fc5159f1db2647d6934e6bc8b3a2101a37cbf15b80064e004",
-      "at": "2026-10-25T04:38:33.441Z"
+      "hash": "2fd63f460a653547ed4f61c3f0b898768c35353614630c03b29eef3dd71facc3",
+      "at": "2026-10-25T05:38:29.801Z"
      }
     },
     {
@@ -8821,8 +8821,8 @@
      "proof": {
       "feed": "AI1-CLOUD",
       "seq": 326,
-      "hash": "6890879366d5ac651943bb21e2aab56dfff4d25bbc563b2c8af6c82e805ef1e8",
-      "at": "2026-10-25T04:38:33.470Z"
+      "hash": "6ff3939a50db9ab5d8a6e3da9d2be204295ef7cfff59e82e82ef1ff3f28d6438",
+      "at": "2026-10-25T05:38:29.844Z"
      }
     }
    ],
