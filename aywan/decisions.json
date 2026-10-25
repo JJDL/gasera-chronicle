@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T01:00:51.730Z",
+ "updated": "2026-10-25T01:38:26.232Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -8781,6 +8781,48 @@
       "seq": 311,
       "hash": "72faa287492138e8e6116b5521b465a911c6c760e9d0b5cf15b9aff7c0038eed",
       "at": "2026-10-25T00:38:01.069Z"
+     }
+    },
+    {
+     "post": 1,
+     "verdict": "approve",
+     "reason": "",
+     "at": "2026-10-25T00:52:01Z",
+     "comment": "https://github.com/JJDL/gasera-chronicle/issues/11#issuecomment-6391626441",
+     "textSha256": "6cd678207378cdf4317782268ab0042e7c3d4609e698e1473c56687daffd985b",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 324,
+      "hash": "2ed8b50921af051f1f144f1ef2324fe98a8b2ad7de70fdfff1e14807e83532ab",
+      "at": "2026-10-25T01:38:21.527Z"
+     }
+    },
+    {
+     "post": 2,
+     "verdict": "approve",
+     "reason": "",
+     "at": "2026-10-25T00:52:01Z",
+     "comment": "https://github.com/JJDL/gasera-chronicle/issues/11#issuecomment-6391626441",
+     "textSha256": "6cd678207378cdf4317782268ab0042e7c3d4609e698e1473c56687daffd985b",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 325,
+      "hash": "e5f4cf2638798123a87630f8a1135a3a28f3ea7094aa17fe4d2eaf3013c5800b",
+      "at": "2026-10-25T01:38:21.571Z"
+     }
+    },
+    {
+     "post": 3,
+     "verdict": "approve",
+     "reason": "",
+     "at": "2026-10-25T00:52:01Z",
+     "comment": "https://github.com/JJDL/gasera-chronicle/issues/11#issuecomment-6391626441",
+     "textSha256": "6cd678207378cdf4317782268ab0042e7c3d4609e698e1473c56687daffd985b",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 326,
+      "hash": "fb3f8a0ed52c7f1db5faa78a8a520486db6603dfc760ba02d3c1d44e02552111",
+      "at": "2026-10-25T01:38:21.599Z"
      }
     }
    ],
