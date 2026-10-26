@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-25T22:22:38.370Z",
-  "day": 19,
+  "updated": "2026-10-26T22:18:03.221Z",
+  "day": 20,
   "day1": "2026-10-08",
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "likes": {
-    "social": 46,
+    "social": 47,
     "site": 0,
-    "total": 46
+    "total": 47
   },
-  "reactions": 0,
+  "reactions": 9,
   "shares": 0,
   "oil": 0,
-  "power": 0,
+  "power": 9,
   "level": 3,
   "nextAt": 50,
   "prevAt": 25,
@@ -52,7 +52,7 @@
   ],
   "proof": {
     "feed": "AI1-CLOUD",
-    "seq": 337,
-    "hash": "13e546b538b459ab22b2084be41c79e53e5092fb3617a72da78c7082c56c2f51"
+    "seq": 360,
+    "hash": "2879c0ee2f9ecbe30444f269ac6c742f946668ad0e320fd0d96e14b931ed6f0a"
   }
 }
