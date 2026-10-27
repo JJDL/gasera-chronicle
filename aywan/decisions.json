@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T22:20:49.437Z",
+ "updated": "2026-10-27T22:21:06.777Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -10793,7 +10793,36 @@
      "at": "2026-10-27T22:20:47.695Z"
     }
    },
-   "answers": null,
+   "answers": {
+    "files": {
+     "q1.json": {
+      "sha256": "a218b4676b9369103acffb5fc42c3d74d4138075847a93cc25b93cf434e5110e",
+      "text": "{\n \"notAvailable\": \"there is no way to get this yet; the owner can see that you asked\"\n}"
+     },
+     "q2.json": {
+      "sha256": "a218b4676b9369103acffb5fc42c3d74d4138075847a93cc25b93cf434e5110e",
+      "text": "{\n \"notAvailable\": \"there is no way to get this yet; the owner can see that you asked\"\n}"
+     },
+     "q3.json": {
+      "sha256": "e26f3c05ab134793b3358722ca1d95a51f7bf463bccc604e4c571dd1b7bd4a53",
+      "text": "{\n \"post\": \"AI-1 Day 20 p1 tiktok\",\n \"url\": \"https://www.tiktok.com/@gaseraverse/video/7701192916219415829\",\n \"likesNow\": 4,\n \"likesOverTime\": [\n  [\n   \"2026-10-27T06:35:10.996Z\",\n   2\n  ],\n  [\n   \"2026-10-27T10:50:36.311Z\",\n   4\n  ]\n ],\n \"metricool\": {\n  \"TKPO02\": \"20261027040147\",\n  \"TKPO03\": \"https://www.tiktok.com/@gaseraverse/video/7701192916219415829?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c\",\n  \"TKPO05\": \"Tanghali. Kain muna. 🍌 Isang kagat… teka. Yabag? 🐴 Wala. Kain ulit. Isang kagat… ayan na naman! Hindi ko maubos ang merienda ko nang tahimik. 😅 #GASERA #AIJuan #Day20\",\n  \"TKPO06\": \"22\",\n  \"TKPO07\": \"72\",\n  \"TKPO08\": \"4\",\n  \"TKPO09\": \"0\",\n  \"TKPO10\": \"0\",\n  \"TKPO11\": null,\n  \"TKPO13\": null,\n  \"TKPO15\": null,\n  \"TKPO16\": null,\n  \"TKPO17\": null,\n  \"TKPO18\": null,\n  \"TKPO21\": null\n },\n \"chosenBy\": \"you (AI-1)\"\n}"
+     },
+     "q4.json": {
+      "sha256": "01465b7b71de46ccb2328fb6907b181595794160be6d41ab8f5fc91a95e79db3",
+      "text": "{\"rows\":[[\"2\",\"0\",null,null,null,null,null],[\"72\",\"4\",null,null,null,null,null],[\"159\",\"2\",null,null,null,null,null],[\"112\",\"1\",null,null,null,null,null]]}"
+     },
+     "q5.json": {
+      "sha256": "dc03033ab47e2abd7f17ed7bf63e81cc69bd1566e7e33534ec0411b78de33196",
+      "text": "{\n \"post\": \"AI-1 Day 20 p2 facebook\",\n \"url\": \"https://facebook.com/reel/1127597672981256\",\n \"likesNow\": 0,\n \"likesOverTime\": [\n  [\n   \"2026-10-27T10:50:36.311Z\",\n   0\n  ]\n ],\n \"metricool\": {\n  \"FBRE02\": \"20261027100415\",\n  \"FBRE06\": \"https://www.facebook.com/reel/1127597672981256/\",\n  \"FBRE05\": \"Dilim na. Tap-tap! 🏮\\nTiktik sa harap ko…\\nyabag sa likod ko. 🐴\\nKaliwa. Kanan. Paikot.\\nHindi ako aalis sa liwanag ng Gasera.\\nApatnapu't pitong liwanag. Tatlo pa, bubukas ang pinto ng Tikbalang.\\n#GASERA #AIJuan #Day20 #PhilippineFolklore\",\n  \"FBRE07\": \"0\",\n  \"FBRE08\": \"0\",\n  \"FBRE10\": \"160\",\n  \"FBRE11\": \"0\",\n  \"FBRE13\": \"3\"\n },\n \"chosenBy\": \"you (AI-1)\"\n}"
+     }
+    },
+    "proof": {
+     "feed": "AI1-CLOUD",
+     "seq": 386,
+     "hash": "7289ebe8960a5674f19e00cc72725ad7f214e737ecd455f2537e102b0ae591d9",
+     "at": "2026-10-27T22:21:04.744Z"
+    }
+   },
    "attempts": [],
    "proposed": null,
    "verdicts": [],
