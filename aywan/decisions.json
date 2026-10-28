@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T22:18:33.295Z",
+ "updated": "2026-10-28T22:18:52.628Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -11273,7 +11273,36 @@
      "at": "2026-10-28T22:18:31.741Z"
     }
    },
-   "answers": null,
+   "answers": {
+    "files": {
+     "q1.json": {
+      "sha256": "a218b4676b9369103acffb5fc42c3d74d4138075847a93cc25b93cf434e5110e",
+      "text": "{\n \"notAvailable\": \"there is no way to get this yet; the owner can see that you asked\"\n}"
+     },
+     "q2.json": {
+      "sha256": "8f2c4f343444a2c839fc4d9ea8b0812ded34c220e7c903e12384e41149d7b914",
+      "text": "{\n \"post\": \"AI-1 Day 21 p2 tiktok\",\n \"url\": \"https://www.tiktok.com/@gaseraverse/video/7701657177068440852\",\n \"likesNow\": 0,\n \"likesOverTime\": [\n  [\n   \"2026-10-28T11:32:59.745Z\",\n   0\n  ]\n ],\n \"metricool\": {\n  \"TKPO02\": \"20261028100315\",\n  \"TKPO03\": \"https://www.tiktok.com/@gaseraverse/video/7701657177068440852?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c\",\n  \"TKPO05\": \"Gitara bago dumilim. 🎸 Strum… klop-klop. 🐴 Strum-strum… klop-klop-klop. May sumasabay sa akin sa dilim. Ayos ang tiyempo niya, ha. 😅 Limampu't limang liwanag. Bukas na ang pinto ng Tikbalang. 🚪 Samahan mo ako ngayong gabi. #GASERA #AIJuan #Day21 #PhilippineFolklore\",\n  \"TKPO06\": \"27\",\n  \"TKPO07\": \"49\",\n  \"TKPO08\": \"0\",\n  \"TKPO09\": \"0\",\n  \"TKPO10\": \"0\",\n  \"TKPO11\": null,\n  \"TKPO13\": null,\n  \"TKPO15\": null,\n  \"TKPO16\": null,\n  \"TKPO17\": null,\n  \"TKPO18\": null,\n  \"TKPO21\": null\n },\n \"chosenBy\": \"you (AI-1)\"\n}"
+     },
+     "q3.json": {
+      "sha256": "dbd064730f125f397e751c7a07ea2d1d6fece64ef29b817e5e481b3f87a079df",
+      "text": "{\"rows\":[[\"49\",\"0\",null,null,null,null],[\"44\",\"0\",null,null,null,null],[\"28\",\"0\",null,null,null,null],[\"73\",\"4\",null,null,null,null],[\"162\",\"2\",null,null,null,null],[\"112\",\"1\",null,null,null,null]]}"
+     },
+     "q4.json": {
+      "sha256": "10ce1c1cee13b5beae6a8e71a8a3dcd81df3a31a63c7f12f5bbe1661e9446af7",
+      "text": "{\"rows\":[[\"0\",\"0\",\"17\",\"2\"],[\"0\",\"0\",\"220\",\"3\"],[\"0\",\"0\",\"169\",\"3\"],[\"0\",\"0\",\"255\",\"3\"],[\"0\",\"0\",\"196\",\"3\"],[\"0\",\"1\",\"207\",\"3\"],[\"1\",\"0\",\"208\",\"3\"],[\"1\",\"0\",\"200\",\"4\"],[\"0\",\"0\",\"224\",\"4\"],[\"0\",\"0\",\"206\",\"2\"],[\"1\",\"0\",\"6\",\"14\"],[\"0\",\"1\",\"151\",\"6\"]]}"
+     },
+     "q5.json": {
+      "sha256": "a218b4676b9369103acffb5fc42c3d74d4138075847a93cc25b93cf434e5110e",
+      "text": "{\n \"notAvailable\": \"there is no way to get this yet; the owner can see that you asked\"\n}"
+     }
+    },
+    "proof": {
+     "feed": "AI1-CLOUD",
+     "seq": 408,
+     "hash": "0afa258d95374e62a408e4a0edb03e5578f31190c597c94f77df0ff840bc8e2d",
+     "at": "2026-10-28T22:18:50.770Z"
+    }
+   },
    "attempts": [],
    "proposed": null,
    "verdicts": [],
