@@ -1,0 +1,612 @@
+{
+ "about": "Isip ng Gasera: the GASERA brand's rule-based brain. Counts, medians and patterns from per-post numbers sealed in the Gasera Chronicle (signed, Bitcoin-stamped, never edited). Rule-based; no AI. Nothing here identifies a person. Separate from AI-Juan's own mind: he never reads this.",
+ "updated": "2026-10-29T00:21:49.444Z",
+ "minimumSample": 8,
+ "readings": 3807,
+ "inputs": [
+  "aywan-data Day 8",
+  "aywan-data Day 9",
+  "aywan-data Day 10",
+  "aywan-data Day 11",
+  "aywan-data Day 12",
+  "aywan-data Day 13",
+  "aywan-data Day 14",
+  "aywan-data Day 15",
+  "aywan-data Day 16",
+  "aywan-data Day 17",
+  "aywan-data Day 18",
+  "aywan-data Day 19",
+  "aywan-data Day 20",
+  "aywan-data Day 21",
+  "aywan-data Day 22"
+ ],
+ "postingsMapped": 362,
+ "postingsComparable": 340,
+ "postingsUnmapped": 0,
+ "byKind": {
+  "cast-short": 118,
+  "episode": 18,
+  "ai1-short": 129,
+  "ai1-bodycam": 24,
+  "hanapin": 73
+ },
+ "perNetwork": {
+  "tiktok": {
+   "postings": 119,
+   "views72": {
+    "n": 119,
+    "q1": 0,
+    "median": 1,
+    "q3": 33,
+    "min": 0,
+    "max": 503
+   },
+   "likes72": {
+    "n": 119,
+    "q1": 0,
+    "median": 0,
+    "q3": 0,
+    "min": 0,
+    "max": 6
+   }
+  },
+  "facebook": {
+   "postings": 129,
+   "views72": {
+    "n": 129,
+    "q1": 22,
+    "median": 203,
+    "q3": 236,
+    "min": 1,
+    "max": 981
+   },
+   "likes72": {
+    "n": 129,
+    "q1": 0,
+    "median": 0,
+    "q3": 1,
+    "min": 0,
+    "max": 4
+   }
+  },
+  "youtube": {
+   "postings": 92,
+   "views72": {
+    "n": 92,
+    "q1": 1,
+    "median": 3,
+    "q3": 10,
+    "min": 1,
+    "max": 457
+   },
+   "likes72": {
+    "n": 92,
+    "q1": 0,
+    "median": 0,
+    "q3": 0,
+    "min": 0,
+    "max": 1
+   }
+  }
+ },
+ "tiktokTraffic": {
+  "n": 125,
+  "median": {
+   "foryou": null,
+   "following": null,
+   "hashtags": null,
+   "search": null
+  }
+ },
+ "questions": [
+  {
+   "question": "cold-open",
+   "ask": "Does the cast cold open hold the first seconds?",
+   "network": "tiktok",
+   "metric": "watch",
+   "labels": [
+    "cast cold open",
+    "other openers"
+   ],
+   "confound": "openers go with kinds: episodes open cold, AI-1 posts open his own way",
+   "status": "too-few",
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "cold-open",
+   "ask": "Does the cast cold open hold the first seconds?",
+   "network": "facebook",
+   "metric": "watch",
+   "labels": [
+    "cast cold open",
+    "other openers"
+   ],
+   "confound": "openers go with kinds: episodes open cold, AI-1 posts open his own way",
+   "status": "too-few",
+   "say": "too few to say (n=0 vs 129; needs 8 each)",
+   "nA": 0,
+   "nB": 129,
+   "medianA": null,
+   "medianB": 4,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "cold-open",
+   "ask": "Does the cast cold open hold the first seconds?",
+   "network": "youtube",
+   "metric": "watch",
+   "labels": [
+    "cast cold open",
+    "other openers"
+   ],
+   "confound": "openers go with kinds: episodes open cold, AI-1 posts open his own way",
+   "status": "too-few",
+   "say": "too few to say (n=0 vs 90; needs 8 each)",
+   "nA": 0,
+   "nB": 90,
+   "medianA": null,
+   "medianB": 3,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "universal",
+   "ask": "Does a universal word or thing in the open help? (UNI)",
+   "network": "tiktok",
+   "metric": "watch",
+   "labels": [
+    "universal yes",
+    "no"
+   ],
+   "confound": "UNI started 16 Oct: newer posts only",
+   "status": "too-few",
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "universal",
+   "ask": "Does a universal word or thing in the open help? (UNI)",
+   "network": "facebook",
+   "metric": "watch",
+   "labels": [
+    "universal yes",
+    "no"
+   ],
+   "confound": "UNI started 16 Oct: newer posts only",
+   "status": "too-few",
+   "say": "too few to say (n=0 vs 129; needs 8 each)",
+   "nA": 0,
+   "nB": 129,
+   "medianA": null,
+   "medianB": 4,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "universal",
+   "ask": "Does a universal word or thing in the open help? (UNI)",
+   "network": "youtube",
+   "metric": "watch",
+   "labels": [
+    "universal yes",
+    "no"
+   ],
+   "confound": "UNI started 16 Oct: newer posts only",
+   "status": "too-few",
+   "say": "too few to say (n=0 vs 90; needs 8 each)",
+   "nA": 0,
+   "nB": 90,
+   "medianA": null,
+   "medianB": 3,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "slot-evening",
+   "ask": "Evening (15-19) vs the rest of the day",
+   "network": "tiktok",
+   "metric": "views",
+   "labels": [
+    "15-19 PHT",
+    "other hours"
+   ],
+   "confound": "AI-1 posts mostly at 12:00 and 18:00; cast posts spread wider",
+   "status": "none",
+   "say": "no difference seen (p=0.75)",
+   "nA": 51,
+   "nB": 68,
+   "medianA": 1,
+   "medianB": 1,
+   "p": 0.7530080140615939,
+   "pHolm": 1,
+   "auc": 0.5162918108419838
+  },
+  {
+   "question": "slot-evening",
+   "ask": "Evening (15-19) vs the rest of the day",
+   "network": "facebook",
+   "metric": "views",
+   "labels": [
+    "15-19 PHT",
+    "other hours"
+   ],
+   "confound": "AI-1 posts mostly at 12:00 and 18:00; cast posts spread wider",
+   "status": "pattern",
+   "say": "A beats B 69% of the time (p=0.000)",
+   "nA": 61,
+   "nB": 68,
+   "medianA": 215,
+   "medianB": 119.5,
+   "p": 0.0001882504808565624,
+   "pHolm": 0.0016942543277090618,
+   "auc": 0.6908148505303761
+  },
+  {
+   "question": "slot-evening",
+   "ask": "Evening (15-19) vs the rest of the day",
+   "network": "youtube",
+   "metric": "views",
+   "labels": [
+    "15-19 PHT",
+    "other hours"
+   ],
+   "confound": "AI-1 posts mostly at 12:00 and 18:00; cast posts spread wider",
+   "status": "none",
+   "say": "no difference seen (p=0.08)",
+   "nA": 39,
+   "nB": 53,
+   "medianA": 2,
+   "medianB": 4,
+   "p": 0.07952265082256901,
+   "pHolm": 0.5566585557579831,
+   "auc": 0.3945331398161587
+  },
+  {
+   "question": "slot-morning",
+   "ask": "Morning (05-09) vs the rest",
+   "network": "tiktok",
+   "metric": "views",
+   "labels": [
+    "05-09 PHT",
+    "other hours"
+   ],
+   "confound": "early slots were AI-1 vlogs in his first week",
+   "status": "too-few",
+   "say": "too few to say (n=7 vs 112; needs 8 each)",
+   "nA": 7,
+   "nB": 112,
+   "medianA": 0,
+   "medianB": 1,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "slot-morning",
+   "ask": "Morning (05-09) vs the rest",
+   "network": "facebook",
+   "metric": "views",
+   "labels": [
+    "05-09 PHT",
+    "other hours"
+   ],
+   "confound": "early slots were AI-1 vlogs in his first week",
+   "status": "too-few",
+   "say": "too few to say (n=7 vs 122; needs 8 each)",
+   "nA": 7,
+   "nB": 122,
+   "medianA": 15,
+   "medianB": 203,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "slot-morning",
+   "ask": "Morning (05-09) vs the rest",
+   "network": "youtube",
+   "metric": "views",
+   "labels": [
+    "05-09 PHT",
+    "other hours"
+   ],
+   "confound": "early slots were AI-1 vlogs in his first week",
+   "status": "too-few",
+   "say": "too few to say (n=6 vs 86; needs 8 each)",
+   "nA": 6,
+   "nB": 86,
+   "medianA": 13,
+   "medianB": 3,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "weekend",
+   "ask": "Weekend vs weekday",
+   "network": "tiktok",
+   "metric": "views",
+   "labels": [
+    "Sat-Sun",
+    "Mon-Fri"
+   ],
+   "confound": "few weekends so far",
+   "status": "none",
+   "say": "no difference seen (p=0.43)",
+   "nA": 40,
+   "nB": 79,
+   "medianA": 1,
+   "medianB": 1,
+   "p": 0.4308893607379492,
+   "pHolm": 1,
+   "auc": 0.4572784810126582
+  },
+  {
+   "question": "weekend",
+   "ask": "Weekend vs weekday",
+   "network": "facebook",
+   "metric": "views",
+   "labels": [
+    "Sat-Sun",
+    "Mon-Fri"
+   ],
+   "confound": "few weekends so far",
+   "status": "none",
+   "say": "no difference seen (p=0.80)",
+   "nA": 45,
+   "nB": 84,
+   "medianA": 202,
+   "medianB": 203,
+   "p": 0.8009926145477615,
+   "pHolm": 1,
+   "auc": 0.4865079365079365
+  },
+  {
+   "question": "weekend",
+   "ask": "Weekend vs weekday",
+   "network": "youtube",
+   "metric": "views",
+   "labels": [
+    "Sat-Sun",
+    "Mon-Fri"
+   ],
+   "confound": "few weekends so far",
+   "status": "none",
+   "say": "no difference seen (p=0.19)",
+   "nA": 32,
+   "nB": 60,
+   "medianA": 2,
+   "medianB": 4,
+   "p": 0.18869904076626165,
+   "pHolm": 1,
+   "auc": 0.41796875
+  },
+  {
+   "question": "ai1-vs-cast",
+   "ask": "AI-Juan posts vs the cast",
+   "network": "tiktok",
+   "metric": "views",
+   "labels": [
+    "AI-Juan",
+    "cast and episodes"
+   ],
+   "confound": "different slots and lengths; counted only, never a suggestion for him",
+   "status": "none",
+   "say": "no difference seen (p=0.56)",
+   "nA": 57,
+   "nB": 62,
+   "medianA": 1,
+   "medianB": 1,
+   "p": 0.5623805354843248,
+   "pHolm": 1,
+   "auc": 0.5297113752122241
+  },
+  {
+   "question": "ai1-vs-cast",
+   "ask": "AI-Juan posts vs the cast",
+   "network": "facebook",
+   "metric": "views",
+   "labels": [
+    "AI-Juan",
+    "cast and episodes"
+   ],
+   "confound": "different slots and lengths; counted only, never a suggestion for him",
+   "status": "none",
+   "say": "no difference seen (p=0.90)",
+   "nA": 58,
+   "nB": 71,
+   "medianA": 206,
+   "medianB": 202,
+   "p": 0.9020151141628894,
+   "pHolm": 1,
+   "auc": 0.5063137445361826
+  },
+  {
+   "question": "ai1-vs-cast",
+   "ask": "AI-Juan posts vs the cast",
+   "network": "youtube",
+   "metric": "views",
+   "labels": [
+    "AI-Juan",
+    "cast and episodes"
+   ],
+   "confound": "different slots and lengths; counted only, never a suggestion for him",
+   "status": "pattern",
+   "say": "A beats B 27% of the time (p=0.000)",
+   "nA": 26,
+   "nB": 66,
+   "medianA": 1,
+   "medianB": 5,
+   "p": 0.0003743460376281194,
+   "pHolm": 0.002994768301024955,
+   "auc": 0.26515151515151514
+  },
+  {
+   "question": "length",
+   "ask": "Short (≤20 s) vs longer",
+   "network": "tiktok",
+   "metric": "full",
+   "labels": [
+    "≤20 s",
+    "longer"
+   ],
+   "confound": "full-watch rate favours short clips by construction",
+   "status": "too-few",
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "length",
+   "ask": "Short (≤20 s) vs longer",
+   "network": "facebook",
+   "metric": "full",
+   "labels": [
+    "≤20 s",
+    "longer"
+   ],
+   "confound": "full-watch rate favours short clips by construction",
+   "status": "too-few",
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "length",
+   "ask": "Short (≤20 s) vs longer",
+   "network": "youtube",
+   "metric": "full",
+   "labels": [
+    "≤20 s",
+    "longer"
+   ],
+   "confound": "full-watch rate favours short clips by construction",
+   "status": "too-few",
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "lesson-joke",
+   "ask": "Lesson as a joke vs narrated (9 Oct rule)",
+   "network": "tiktok",
+   "metric": "watch",
+   "labels": [
+    "lesson in a joke",
+    "narrated lesson"
+   ],
+   "confound": "episodes only; small n",
+   "status": "too-few",
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "lesson-joke",
+   "ask": "Lesson as a joke vs narrated (9 Oct rule)",
+   "network": "facebook",
+   "metric": "watch",
+   "labels": [
+    "lesson in a joke",
+    "narrated lesson"
+   ],
+   "confound": "episodes only; small n",
+   "status": "too-few",
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  },
+  {
+   "question": "lesson-joke",
+   "ask": "Lesson as a joke vs narrated (9 Oct rule)",
+   "network": "youtube",
+   "metric": "watch",
+   "labels": [
+    "lesson in a joke",
+    "narrated lesson"
+   ],
+   "confound": "episodes only; small n",
+   "status": "too-few",
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "auc": null
+  }
+ ],
+ "runs": [
+  {
+   "at": "2026-10-29T00:18:41.652Z",
+   "comparable": 340,
+   "patterns": [
+    "slot-evening/facebook"
+   ],
+   "weak": [],
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 39,
+    "hash": "7371ce4c668f2f5204c464e7d61a55e97c1b582f428161f4f062e4a8c17b95a5"
+   }
+  },
+  {
+   "at": "2026-10-29T00:21:49.444Z",
+   "comparable": 340,
+   "patterns": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "weak": [],
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 40,
+    "hash": "22359f711cfbc9d40f1b8eed07de495d8b9fdcdfc41942e51eb12a89b4c37082"
+   }
+  }
+ ]
+}
