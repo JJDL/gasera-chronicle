@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-28T22:17:54.751Z",
-  "day": 22,
+  "updated": "2026-10-29T22:19:47.107Z",
+  "day": 23,
   "day1": "2026-10-08",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "likes": {
-    "social": 55,
+    "social": 62,
     "site": 0,
-    "total": 55
+    "total": 62
   },
   "reactions": 9,
   "shares": 0,
@@ -28,15 +28,8 @@
     "laban": 0,
     "tabi": 0
   },
-  "levelUp": true,
-  "bosses": [
-    {
-      "day": 20754,
-      "level": 3,
-      "chance": 0.98,
-      "won": true
-    }
-  ],
+  "levelUp": false,
+  "bosses": [],
   "bossReady": false,
   "bossChance": 0.97,
   "ladder": [
@@ -59,7 +52,7 @@
   ],
   "proof": {
     "feed": "AI1-CLOUD",
-    "seq": 406,
-    "hash": "4578d97ba0913e95c0320797e73f15b300954102efb080470f508bea599e49f2"
+    "seq": 431,
+    "hash": "a8ffbbd609e83e678324f34b1ad8633b3f12b9c6aec1759f543477ee40209bb1"
   }
 }
