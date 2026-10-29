@@ -1,8 +1,8 @@
 {
  "about": "Isip ng Gasera: the GASERA brand's rule-based brain. Counts, medians and patterns from per-post numbers sealed in the Gasera Chronicle (signed, Bitcoin-stamped, never edited). Rule-based; no AI. Nothing here identifies a person. Separate from AI-Juan's own mind: he never reads this.",
- "updated": "2026-10-29T00:21:49.444Z",
+ "updated": "2026-10-29T03:29:29.383Z",
  "minimumSample": 8,
- "readings": 3807,
+ "readings": 4231,
  "inputs": [
   "aywan-data Day 8",
   "aywan-data Day 9",
@@ -18,61 +18,79 @@
   "aywan-data Day 19",
   "aywan-data Day 20",
   "aywan-data Day 21",
-  "aywan-data Day 22"
+  "aywan-data Day 22",
+  "gkos-data 2026-10-29"
  ],
- "postingsMapped": 362,
- "postingsComparable": 340,
+ "postingsMapped": 424,
+ "postingsComparable": 356,
  "postingsUnmapped": 0,
  "byKind": {
-  "cast-short": 118,
-  "episode": 18,
+  "episode": 38,
+  "cast-short": 160,
   "ai1-short": 129,
   "ai1-bodycam": 24,
   "hanapin": 73
  },
  "perNetwork": {
   "tiktok": {
-   "postings": 119,
+   "postings": 100,
    "views72": {
-    "n": 119,
-    "q1": 0,
-    "median": 1,
-    "q3": 33,
+    "n": 100,
+    "q1": 1,
+    "median": 5.5,
+    "q3": 117.75,
     "min": 0,
-    "max": 503
+    "max": 624
    },
    "likes72": {
-    "n": 119,
+    "n": 100,
     "q1": 0,
     "median": 0,
-    "q3": 0,
+    "q3": 1,
     "min": 0,
-    "max": 6
+    "max": 8
+   },
+   "retention72": null,
+   "spearman72v7d": {
+    "rho": 0.9991404092252695,
+    "n": 88
    }
   },
   "facebook": {
-   "postings": 129,
+   "postings": 157,
    "views72": {
-    "n": 129,
+    "n": 157,
     "q1": 22,
     "median": 203,
-    "q3": 236,
+    "q3": 233,
     "min": 1,
     "max": 981
    },
    "likes72": {
-    "n": 129,
+    "n": 157,
     "q1": 0,
     "median": 0,
     "q3": 1,
     "min": 0,
     "max": 4
+   },
+   "retention72": {
+    "n": 60,
+    "q1": 0.11624999999999999,
+    "median": 0.188,
+    "q3": 0.25,
+    "min": 0,
+    "max": 1.143
+   },
+   "spearman72v7d": {
+    "rho": 0.992866928733745,
+    "n": 135
    }
   },
   "youtube": {
-   "postings": 92,
+   "postings": 99,
    "views72": {
-    "n": 92,
+    "n": 99,
     "q1": 1,
     "median": 3,
     "q3": 10,
@@ -80,17 +98,29 @@
     "max": 457
    },
    "likes72": {
-    "n": 92,
+    "n": 99,
     "q1": 0,
     "median": 0,
     "q3": 0,
     "min": 0,
     "max": 1
+   },
+   "retention72": {
+    "n": 4,
+    "q1": 0.1875,
+    "median": 0.25,
+    "q3": 0.28800000000000003,
+    "min": 0,
+    "max": 0.402
+   },
+   "spearman72v7d": {
+    "rho": 0.9303573644613845,
+    "n": 83
    }
   }
  },
  "tiktokTraffic": {
-  "n": 125,
+  "n": 154,
   "median": {
    "foryou": null,
    "following": null,
@@ -98,6 +128,9 @@
    "search": null
   }
  },
+ "held": 48,
+ "tests": 21,
+ "stableRuns": 3,
  "questions": [
   {
    "question": "cold-open",
@@ -108,8 +141,9 @@
     "cast cold open",
     "other openers"
    ],
-   "confound": "openers go with kinds: episodes open cold, AI-1 posts open his own way",
+   "confound": "avg watch seconds, not normalised by length (Facebook reports no length); openers go with kinds: episodes open cold, AI-1 posts open his own way",
    "status": "too-few",
+   "stability": null,
    "say": "too few to say (n=0 vs 0; needs 8 each)",
    "nA": 0,
    "nB": 0,
@@ -117,7 +151,14 @@
    "medianB": null,
    "p": null,
    "pHolm": null,
-   "auc": null
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "cold-open",
@@ -128,16 +169,27 @@
     "cast cold open",
     "other openers"
    ],
-   "confound": "openers go with kinds: episodes open cold, AI-1 posts open his own way",
-   "status": "too-few",
-   "say": "too few to say (n=0 vs 129; needs 8 each)",
-   "nA": 0,
-   "nB": 129,
-   "medianA": null,
-   "medianB": 4,
-   "p": null,
-   "pHolm": null,
-   "auc": null
+   "confound": "avg watch seconds, not normalised by length (Facebook reports no length); openers go with kinds: episodes open cold, AI-1 posts open his own way",
+   "status": "weak",
+   "stability": null,
+   "say": "A beats B 65% of the time (p=0.012)",
+   "nA": 27,
+   "nB": 130,
+   "medianA": 4,
+   "medianB": 3.5,
+   "p": 0.012080789247551044,
+   "pHolm": 0.20537341720836774,
+   "pBH": 0.05073931483971439,
+   "auc": 0.65,
+   "delta": 0.30000000000000004,
+   "deltaLabel": "small (convention)",
+   "ci": {
+    "lo": 0,
+    "hi": 2
+   },
+   "bmP": 0.008969310936461375,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "cold-open",
@@ -148,16 +200,24 @@
     "cast cold open",
     "other openers"
    ],
-   "confound": "openers go with kinds: episodes open cold, AI-1 posts open his own way",
+   "confound": "avg watch seconds, not normalised by length (Facebook reports no length); openers go with kinds: episodes open cold, AI-1 posts open his own way",
    "status": "too-few",
-   "say": "too few to say (n=0 vs 90; needs 8 each)",
+   "stability": null,
+   "say": "too few to say (n=0 vs 97; needs 8 each)",
    "nA": 0,
-   "nB": 90,
+   "nB": 97,
    "medianA": null,
    "medianB": 3,
    "p": null,
    "pHolm": null,
-   "auc": null
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "universal",
@@ -168,8 +228,9 @@
     "universal yes",
     "no"
    ],
-   "confound": "UNI started 16 Oct: newer posts only",
+   "confound": "avg watch seconds, not length-normalised; UNI started 16 Oct: newer posts only",
    "status": "too-few",
+   "stability": null,
    "say": "too few to say (n=0 vs 0; needs 8 each)",
    "nA": 0,
    "nB": 0,
@@ -177,7 +238,14 @@
    "medianB": null,
    "p": null,
    "pHolm": null,
-   "auc": null
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "universal",
@@ -188,16 +256,24 @@
     "universal yes",
     "no"
    ],
-   "confound": "UNI started 16 Oct: newer posts only",
+   "confound": "avg watch seconds, not length-normalised; UNI started 16 Oct: newer posts only",
    "status": "too-few",
-   "say": "too few to say (n=0 vs 129; needs 8 each)",
-   "nA": 0,
-   "nB": 129,
-   "medianA": null,
+   "stability": null,
+   "say": "too few to say (n=3 vs 154; needs 8 each)",
+   "nA": 3,
+   "nB": 154,
+   "medianA": 5,
    "medianB": 4,
    "p": null,
    "pHolm": null,
-   "auc": null
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "universal",
@@ -208,16 +284,24 @@
     "universal yes",
     "no"
    ],
-   "confound": "UNI started 16 Oct: newer posts only",
+   "confound": "avg watch seconds, not length-normalised; UNI started 16 Oct: newer posts only",
    "status": "too-few",
-   "say": "too few to say (n=0 vs 90; needs 8 each)",
-   "nA": 0,
-   "nB": 90,
-   "medianA": null,
+   "stability": null,
+   "say": "too few to say (n=2 vs 95; needs 8 each)",
+   "nA": 2,
+   "nB": 95,
+   "medianA": 24.5,
    "medianB": 3,
    "p": null,
    "pHolm": null,
-   "auc": null
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "slot-evening",
@@ -229,15 +313,26 @@
     "other hours"
    ],
    "confound": "AI-1 posts mostly at 12:00 and 18:00; cast posts spread wider",
-   "status": "none",
-   "say": "no difference seen (p=0.75)",
-   "nA": 51,
-   "nB": 68,
-   "medianA": 1,
-   "medianB": 1,
-   "p": 0.7530080140615939,
-   "pHolm": 1,
-   "auc": 0.5162918108419838
+   "status": "lead",
+   "stability": null,
+   "say": "A beats B 65% of the time (p=0.008)",
+   "nA": 49,
+   "nB": 51,
+   "medianA": 65,
+   "medianB": 2,
+   "p": 0.008257019521467394,
+   "pHolm": 0.1486263513864131,
+   "pBH": 0.04334935248770382,
+   "auc": 0.6518607442977191,
+   "delta": 0.30372148859543824,
+   "deltaLabel": "small (convention)",
+   "ci": {
+    "lo": 3,
+    "hi": 115
+   },
+   "bmP": 0.006742083534030896,
+   "disputed": false,
+   "withinKind": "holds within 1 kind(s)"
   },
   {
    "question": "slot-evening",
@@ -250,14 +345,25 @@
    ],
    "confound": "AI-1 posts mostly at 12:00 and 18:00; cast posts spread wider",
    "status": "pattern",
-   "say": "A beats B 69% of the time (p=0.000)",
-   "nA": 61,
-   "nB": 68,
-   "medianA": 215,
-   "medianB": 119.5,
-   "p": 0.0001882504808565624,
-   "pHolm": 0.0016942543277090618,
-   "auc": 0.6908148505303761
+   "stability": "stable",
+   "say": "A beats B 70% of the time (p=0.000)",
+   "nA": 68,
+   "nB": 89,
+   "medianA": 215.5,
+   "medianB": 150,
+   "p": 0.000028851464962529252,
+   "pHolm": 0.0006058807642131143,
+   "pBH": 0.0006058807642131143,
+   "auc": 0.6950594844679445,
+   "delta": 0.39011896893588904,
+   "deltaLabel": "medium (convention)",
+   "ci": {
+    "lo": 9.5,
+    "hi": 197
+   },
+   "bmP": 0.000007671830108271673,
+   "disputed": false,
+   "withinKind": "holds within 3 kind(s)"
   },
   {
    "question": "slot-evening",
@@ -269,15 +375,26 @@
     "other hours"
    ],
    "confound": "AI-1 posts mostly at 12:00 and 18:00; cast posts spread wider",
-   "status": "none",
-   "say": "no difference seen (p=0.08)",
-   "nA": 39,
-   "nB": 53,
+   "status": "weak",
+   "stability": null,
+   "say": "A beats B 37% of the time (p=0.025)",
+   "nA": 43,
+   "nB": 56,
    "medianA": 2,
-   "medianB": 4,
-   "p": 0.07952265082256901,
-   "pHolm": 0.5566585557579831,
-   "auc": 0.3945331398161587
+   "medianB": 5,
+   "p": 0.02493778585241071,
+   "pHolm": 0.37406678778616065,
+   "pBH": 0.07481335755723213,
+   "auc": 0.37022425249169433,
+   "delta": -0.25955149501661134,
+   "deltaLabel": "small (convention)",
+   "ci": {
+    "lo": -7,
+    "hi": 0
+   },
+   "bmP": 0.02594447383240106,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
   },
   {
    "question": "slot-morning",
@@ -290,14 +407,22 @@
    ],
    "confound": "early slots were AI-1 vlogs in his first week",
    "status": "too-few",
-   "say": "too few to say (n=7 vs 112; needs 8 each)",
-   "nA": 7,
-   "nB": 112,
-   "medianA": 0,
-   "medianB": 1,
+   "stability": null,
+   "say": "too few to say (n=5 vs 95; needs 8 each)",
+   "nA": 5,
+   "nB": 95,
+   "medianA": 6,
+   "medianB": 5,
    "p": null,
    "pHolm": null,
-   "auc": null
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "slot-morning",
@@ -309,15 +434,23 @@
     "other hours"
    ],
    "confound": "early slots were AI-1 vlogs in his first week",
-   "status": "too-few",
-   "say": "too few to say (n=7 vs 122; needs 8 each)",
-   "nA": 7,
-   "nB": 122,
+   "status": "none",
+   "stability": null,
+   "say": "no difference seen (p=0.26)",
+   "nA": 9,
+   "nB": 148,
    "medianA": 15,
-   "medianB": 203,
-   "p": null,
-   "pHolm": null,
-   "auc": null
+   "medianB": 203.5,
+   "p": 0.2604797907154116,
+   "pHolm": 1,
+   "pBH": 0.4395883394184862,
+   "auc": 0.38813813813813813,
+   "delta": -0.22372372372372373,
+   "deltaLabel": "small (convention)",
+   "ci": null,
+   "bmP": 0.33082680691625876,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "slot-morning",
@@ -330,14 +463,22 @@
    ],
    "confound": "early slots were AI-1 vlogs in his first week",
    "status": "too-few",
-   "say": "too few to say (n=6 vs 86; needs 8 each)",
+   "stability": null,
+   "say": "too few to say (n=6 vs 93; needs 8 each)",
    "nA": 6,
-   "nB": 86,
+   "nB": 93,
    "medianA": 13,
    "medianB": 3,
    "p": null,
    "pHolm": null,
-   "auc": null
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "weekend",
@@ -349,15 +490,26 @@
     "Mon-Fri"
    ],
    "confound": "few weekends so far",
-   "status": "none",
-   "say": "no difference seen (p=0.43)",
-   "nA": 40,
-   "nB": 79,
-   "medianA": 1,
-   "medianB": 1,
-   "p": 0.4308893607379492,
-   "pHolm": 1,
-   "auc": 0.4572784810126582
+   "status": "weak",
+   "stability": null,
+   "say": "A beats B 35% of the time (p=0.016)",
+   "nA": 30,
+   "nB": 70,
+   "medianA": 2,
+   "medianB": 8.5,
+   "p": 0.01609013141555942,
+   "pHolm": 0.25744210264895073,
+   "pBH": 0.05631545995445797,
+   "auc": 0.34904761904761905,
+   "delta": -0.3019047619047619,
+   "deltaLabel": "small (convention)",
+   "ci": {
+    "lo": -68.5,
+    "hi": 27
+   },
+   "bmP": 0.014172657661431609,
+   "disputed": false,
+   "withinKind": "holds within 1 kind(s)"
   },
   {
    "question": "weekend",
@@ -370,14 +522,25 @@
    ],
    "confound": "few weekends so far",
    "status": "none",
-   "say": "no difference seen (p=0.80)",
-   "nA": 45,
-   "nB": 84,
-   "medianA": 202,
+   "stability": null,
+   "say": "no difference seen (p=0.84)",
+   "nA": 48,
+   "nB": 109,
+   "medianA": 203.5,
    "medianB": 203,
-   "p": 0.8009926145477615,
+   "p": 0.8369721783300526,
    "pHolm": 1,
-   "auc": 0.4865079365079365
+   "pBH": 0.9764675413850613,
+   "auc": 0.5103211009174312,
+   "delta": 0.020642201834862428,
+   "deltaLabel": "negligible (convention)",
+   "ci": {
+    "lo": -16.5,
+    "hi": 44
+   },
+   "bmP": 0.8378389275453368,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
   },
   {
    "question": "weekend",
@@ -390,14 +553,25 @@
    ],
    "confound": "few weekends so far",
    "status": "none",
-   "say": "no difference seen (p=0.19)",
-   "nA": 32,
-   "nB": 60,
+   "stability": null,
+   "say": "no difference seen (p=0.25)",
+   "nA": 33,
+   "nB": 66,
    "medianA": 2,
    "medianB": 4,
-   "p": 0.18869904076626165,
+   "p": 0.24680410197288388,
    "pHolm": 1,
-   "auc": 0.41796875
+   "pBH": 0.4395883394184862,
+   "auc": 0.4295224977043159,
+   "delta": -0.14095500459136823,
+   "deltaLabel": "negligible (convention)",
+   "ci": {
+    "lo": -4,
+    "hi": 1
+   },
+   "bmP": 0.28376302455355673,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
   },
   {
    "question": "ai1-vs-cast",
@@ -410,14 +584,25 @@
    ],
    "confound": "different slots and lengths; counted only, never a suggestion for him",
    "status": "none",
-   "say": "no difference seen (p=0.56)",
-   "nA": 57,
-   "nB": 62,
-   "medianA": 1,
-   "medianB": 1,
-   "p": 0.5623805354843248,
+   "stability": null,
+   "say": "no difference seen (p=0.27)",
+   "nA": 36,
+   "nB": 64,
+   "medianA": 63,
+   "medianB": 4.5,
+   "p": 0.2721261148781105,
    "pHolm": 1,
-   "auc": 0.5297113752122241
+   "pBH": 0.4395883394184862,
+   "auc": 0.4342447916666667,
+   "delta": -0.13151041666666663,
+   "deltaLabel": "negligible (convention)",
+   "ci": {
+    "lo": -4.5,
+    "hi": 67
+   },
+   "bmP": 0.26952647908701177,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "ai1-vs-cast",
@@ -430,14 +615,25 @@
    ],
    "confound": "different slots and lengths; counted only, never a suggestion for him",
    "status": "none",
-   "say": "no difference seen (p=0.90)",
+   "stability": null,
+   "say": "no difference seen (p=0.99)",
    "nA": 58,
-   "nB": 71,
+   "nB": 99,
    "medianA": 206,
    "medianB": 202,
-   "p": 0.9020151141628894,
+   "p": 0.9912935404680099,
    "pHolm": 1,
-   "auc": 0.5063137445361826
+   "pBH": 0.9912935404680099,
+   "auc": 0.5005224660397074,
+   "delta": 0.0010449320794148065,
+   "deltaLabel": "negligible (convention)",
+   "ci": {
+    "lo": -11,
+    "hi": 37.5
+   },
+   "bmP": 0.9915710274522325,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "ai1-vs-cast",
@@ -450,14 +646,25 @@
    ],
    "confound": "different slots and lengths; counted only, never a suggestion for him",
    "status": "pattern",
-   "say": "A beats B 27% of the time (p=0.000)",
+   "stability": "stable",
+   "say": "A beats B 26% of the time (p=0.000)",
    "nA": 26,
-   "nB": 66,
+   "nB": 73,
    "medianA": 1,
    "medianB": 5,
-   "p": 0.0003743460376281194,
-   "pHolm": 0.002994768301024955,
-   "auc": 0.26515151515151514
+   "p": 0.00030774046321267756,
+   "pHolm": 0.006154809264253551,
+   "pBH": 0.0032312748637331142,
+   "auc": 0.26475237091675446,
+   "delta": -0.47049525816649107,
+   "deltaLabel": "medium (convention)",
+   "ci": {
+    "lo": -7,
+    "hi": -1
+   },
+   "bmP": 0.000044549828061457575,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "length",
@@ -470,6 +677,7 @@
    ],
    "confound": "full-watch rate favours short clips by construction",
    "status": "too-few",
+   "stability": null,
    "say": "too few to say (n=0 vs 0; needs 8 each)",
    "nA": 0,
    "nB": 0,
@@ -477,7 +685,14 @@
    "medianB": null,
    "p": null,
    "pHolm": null,
-   "auc": null
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
   },
   {
    "question": "length",
@@ -490,6 +705,7 @@
    ],
    "confound": "full-watch rate favours short clips by construction",
    "status": "too-few",
+   "stability": null,
    "say": "too few to say (n=0 vs 0; needs 8 each)",
    "nA": 0,
    "nB": 0,
@@ -497,7 +713,14 @@
    "medianB": null,
    "p": null,
    "pHolm": null,
-   "auc": null
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
   },
   {
    "question": "length",
@@ -510,6 +733,7 @@
    ],
    "confound": "full-watch rate favours short clips by construction",
    "status": "too-few",
+   "stability": null,
    "say": "too few to say (n=0 vs 0; needs 8 each)",
    "nA": 0,
    "nB": 0,
@@ -517,7 +741,14 @@
    "medianB": null,
    "p": null,
    "pHolm": null,
-   "auc": null
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "lesson-joke",
@@ -528,8 +759,9 @@
     "lesson in a joke",
     "narrated lesson"
    ],
-   "confound": "episodes only; small n",
+   "confound": "avg watch seconds, not length-normalised; episodes only; small n",
    "status": "too-few",
+   "stability": null,
    "say": "too few to say (n=0 vs 0; needs 8 each)",
    "nA": 0,
    "nB": 0,
@@ -537,7 +769,14 @@
    "medianB": null,
    "p": null,
    "pHolm": null,
-   "auc": null
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
   },
   {
    "question": "lesson-joke",
@@ -548,16 +787,24 @@
     "lesson in a joke",
     "narrated lesson"
    ],
-   "confound": "episodes only; small n",
-   "status": "too-few",
-   "say": "too few to say (n=0 vs 0; needs 8 each)",
-   "nA": 0,
-   "nB": 0,
-   "medianA": null,
-   "medianB": null,
-   "p": null,
-   "pHolm": null,
-   "auc": null
+   "confound": "avg watch seconds, not length-normalised; episodes only; small n",
+   "status": "none",
+   "stability": null,
+   "say": "no difference seen (p=0.09)",
+   "nA": 10,
+   "nB": 18,
+   "medianA": 4,
+   "medianB": 4.5,
+   "p": 0.09188926702228258,
+   "pHolm": 1,
+   "pBH": 0.1929674607467934,
+   "auc": 0.3111111111111111,
+   "delta": -0.37777777777777777,
+   "deltaLabel": "medium (convention)",
+   "ci": null,
+   "bmP": 0.09118898169844858,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
   },
   {
    "question": "lesson-joke",
@@ -568,8 +815,9 @@
     "lesson in a joke",
     "narrated lesson"
    ],
-   "confound": "episodes only; small n",
+   "confound": "avg watch seconds, not length-normalised; episodes only; small n",
    "status": "too-few",
+   "stability": null,
    "say": "too few to say (n=0 vs 0; needs 8 each)",
    "nA": 0,
    "nB": 0,
@@ -577,7 +825,785 @@
    "medianB": null,
    "p": null,
    "pHolm": null,
-   "auc": null
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "hook-question",
+   "ask": "Does a question in the first line hurt? (B29R)",
+   "network": "tiktok",
+   "metric": "views",
+   "labels": [
+    "question first",
+    "no question"
+   ],
+   "confound": "questions were the default caption style of early cast shorts",
+   "status": "none",
+   "stability": null,
+   "say": "no difference seen (p=0.97)",
+   "nA": 56,
+   "nB": 44,
+   "medianA": 4,
+   "medianB": 40.5,
+   "p": 0.9720420933231639,
+   "pHolm": 1,
+   "pBH": 0.9912935404680099,
+   "auc": 0.5020292207792207,
+   "delta": 0.0040584415584414835,
+   "deltaLabel": "negligible (convention)",
+   "ci": {
+    "lo": -68.5,
+    "hi": 10.5
+   },
+   "bmP": 0.9723533972502333,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
+  },
+  {
+   "question": "hook-question",
+   "ask": "Does a question in the first line hurt? (B29R)",
+   "network": "facebook",
+   "metric": "views",
+   "labels": [
+    "question first",
+    "no question"
+   ],
+   "confound": "questions were the default caption style of early cast shorts",
+   "status": "confounded",
+   "stability": null,
+   "say": "A beats B 35% of the time (p=0.002) — pooled only: no kind supports it on its own (confounded by kind)",
+   "nA": 57,
+   "nB": 100,
+   "medianA": 154,
+   "medianB": 210.5,
+   "p": 0.002191669989776791,
+   "pHolm": 0.04164172980575903,
+   "pBH": 0.015341689928437539,
+   "auc": 0.3528070175438596,
+   "delta": -0.29438596491228075,
+   "deltaLabel": "small (convention)",
+   "ci": {
+    "lo": -177.5,
+    "hi": -6.5
+   },
+   "bmP": 0.001317232008922531,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
+  },
+  {
+   "question": "hook-question",
+   "ask": "Does a question in the first line hurt? (B29R)",
+   "network": "youtube",
+   "metric": "views",
+   "labels": [
+    "question first",
+    "no question"
+   ],
+   "confound": "questions were the default caption style of early cast shorts",
+   "status": "none",
+   "stability": null,
+   "say": "no difference seen (p=0.32)",
+   "nA": 14,
+   "nB": 85,
+   "medianA": 5,
+   "medianB": 3,
+   "p": 0.3171579755901263,
+   "pHolm": 1,
+   "pBH": 0.47573696338518945,
+   "auc": 0.5823529411764706,
+   "delta": 0.16470588235294126,
+   "deltaLabel": "small (convention)",
+   "ci": null,
+   "bmP": 0.154683843473443,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
+  },
+  {
+   "question": "frame0-character",
+   "ask": "Does a character filling frame 0 help? (FFS)",
+   "network": "tiktok",
+   "metric": "views",
+   "labels": [
+    "character in frame 0",
+    "other frame 0"
+   ],
+   "confound": "frame 0 is read from the local render, not the platform cover; only reels with a render here",
+   "status": "none",
+   "stability": null,
+   "say": "no difference seen (p=0.64)",
+   "nA": 14,
+   "nB": 10,
+   "medianA": 200,
+   "medianB": 108,
+   "p": 0.6388918059464067,
+   "pHolm": 1,
+   "pBH": 0.7892192896985024,
+   "auc": 0.5571428571428572,
+   "delta": 0.11428571428571432,
+   "deltaLabel": "negligible (convention)",
+   "ci": null,
+   "bmP": 0.643063772433349,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
+  },
+  {
+   "question": "frame0-character",
+   "ask": "Does a character filling frame 0 help? (FFS)",
+   "network": "facebook",
+   "metric": "views",
+   "labels": [
+    "character in frame 0",
+    "other frame 0"
+   ],
+   "confound": "frame 0 is read from the local render, not the platform cover; only reels with a render here",
+   "status": "none",
+   "stability": null,
+   "say": "no difference seen (p=0.61)",
+   "nA": 13,
+   "nB": 8,
+   "medianA": 203,
+   "medianB": 173.5,
+   "p": 0.6119623595640881,
+   "pHolm": 1,
+   "pBH": 0.7892192896985024,
+   "auc": 0.5673076923076923,
+   "delta": 0.13461538461538458,
+   "deltaLabel": "negligible (convention)",
+   "ci": null,
+   "bmP": 0.6348878827704016,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "frame0-character",
+   "ask": "Does a character filling frame 0 help? (FFS)",
+   "network": "youtube",
+   "metric": "views",
+   "labels": [
+    "character in frame 0",
+    "other frame 0"
+   ],
+   "confound": "frame 0 is read from the local render, not the platform cover; only reels with a render here",
+   "status": "none",
+   "stability": null,
+   "say": "no difference seen (p=0.94)",
+   "nA": 13,
+   "nB": 13,
+   "medianA": 5,
+   "medianB": 5,
+   "p": 0.9380255700623391,
+   "pHolm": 1,
+   "pBH": 0.9912935404680099,
+   "auc": 0.4911242603550296,
+   "delta": -0.017751479289940808,
+   "deltaLabel": "negligible (convention)",
+   "ci": null,
+   "bmP": 0.9416571220091687,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
+  },
+  {
+   "question": "frame0-dark",
+   "ask": "Does a dark frame 0 hurt? (FFS)",
+   "network": "tiktok",
+   "metric": "views",
+   "labels": [
+    "dark frame 0",
+    "lit frame 0"
+   ],
+   "confound": "night scenes are also the scarier episodes",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 24; needs 8 each)",
+   "nA": 0,
+   "nB": 24,
+   "medianA": null,
+   "medianB": 194,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "frame0-dark",
+   "ask": "Does a dark frame 0 hurt? (FFS)",
+   "network": "facebook",
+   "metric": "views",
+   "labels": [
+    "dark frame 0",
+    "lit frame 0"
+   ],
+   "confound": "night scenes are also the scarier episodes",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 21; needs 8 each)",
+   "nA": 0,
+   "nB": 21,
+   "medianA": null,
+   "medianB": 203,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "frame0-dark",
+   "ask": "Does a dark frame 0 hurt? (FFS)",
+   "network": "youtube",
+   "metric": "views",
+   "labels": [
+    "dark frame 0",
+    "lit frame 0"
+   ],
+   "confound": "night scenes are also the scarier episodes",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=1 vs 25; needs 8 each)",
+   "nA": 1,
+   "nB": 25,
+   "medianA": 14,
+   "medianB": 5,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-vs-oneoff",
+   "ask": "Do series episodes beat one-off cast posts? (SER3, pre-registered)",
+   "network": "tiktok",
+   "metric": "views",
+   "labels": [
+    "series episode",
+    "one-off cast post"
+   ],
+   "confound": "series episodes are also the newest and shortest (15-25 s)",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-vs-oneoff",
+   "ask": "Do series episodes beat one-off cast posts? (SER3, pre-registered)",
+   "network": "facebook",
+   "metric": "views",
+   "labels": [
+    "series episode",
+    "one-off cast post"
+   ],
+   "confound": "series episodes are also the newest and shortest (15-25 s)",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-vs-oneoff",
+   "ask": "Do series episodes beat one-off cast posts? (SER3, pre-registered)",
+   "network": "youtube",
+   "metric": "views",
+   "labels": [
+    "series episode",
+    "one-off cast post"
+   ],
+   "confound": "series episodes are also the newest and shortest (15-25 s)",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-A",
+   "ask": "Series A (the Manananggal's halves) vs one-offs (SER3)",
+   "network": "tiktok",
+   "metric": "views",
+   "labels": [
+    "Series A",
+    "one-off"
+   ],
+   "confound": "as above",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-A",
+   "ask": "Series A (the Manananggal's halves) vs one-offs (SER3)",
+   "network": "facebook",
+   "metric": "views",
+   "labels": [
+    "Series A",
+    "one-off"
+   ],
+   "confound": "as above",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-A",
+   "ask": "Series A (the Manananggal's halves) vs one-offs (SER3)",
+   "network": "youtube",
+   "metric": "views",
+   "labels": [
+    "Series A",
+    "one-off"
+   ],
+   "confound": "as above",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-B",
+   "ask": "Series B (the Nuno vs bad manners) vs one-offs (SER3)",
+   "network": "tiktok",
+   "metric": "views",
+   "labels": [
+    "Series B",
+    "one-off"
+   ],
+   "confound": "as above; the Nuno back catalogue is excluded by SERIES_START",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-B",
+   "ask": "Series B (the Nuno vs bad manners) vs one-offs (SER3)",
+   "network": "facebook",
+   "metric": "views",
+   "labels": [
+    "Series B",
+    "one-off"
+   ],
+   "confound": "as above; the Nuno back catalogue is excluded by SERIES_START",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-B",
+   "ask": "Series B (the Nuno vs bad manners) vs one-offs (SER3)",
+   "network": "youtube",
+   "metric": "views",
+   "labels": [
+    "Series B",
+    "one-off"
+   ],
+   "confound": "as above; the Nuno back catalogue is excluded by SERIES_START",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-C",
+   "ask": "Series C (Tito is too tired) vs one-offs (SER3)",
+   "network": "tiktok",
+   "metric": "views",
+   "labels": [
+    "Series C",
+    "one-off"
+   ],
+   "confound": "as above",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-C",
+   "ask": "Series C (Tito is too tired) vs one-offs (SER3)",
+   "network": "facebook",
+   "metric": "views",
+   "labels": [
+    "Series C",
+    "one-off"
+   ],
+   "confound": "as above",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-C",
+   "ask": "Series C (Tito is too tired) vs one-offs (SER3)",
+   "network": "youtube",
+   "metric": "views",
+   "labels": [
+    "Series C",
+    "one-off"
+   ],
+   "confound": "as above",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-retention",
+   "ask": "Do series episodes hold viewers longer? (SER3)",
+   "network": "tiktok",
+   "metric": "retention",
+   "labels": [
+    "series episode",
+    "one-off cast post"
+   ],
+   "confound": "retention favours the 15-25 s cut by construction",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-retention",
+   "ask": "Do series episodes hold viewers longer? (SER3)",
+   "network": "facebook",
+   "metric": "retention",
+   "labels": [
+    "series episode",
+    "one-off cast post"
+   ],
+   "confound": "retention favours the 15-25 s cut by construction",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "series-retention",
+   "ask": "Do series episodes hold viewers longer? (SER3)",
+   "network": "youtube",
+   "metric": "retention",
+   "labels": [
+    "series episode",
+    "one-off cast post"
+   ],
+   "confound": "retention favours the 15-25 s cut by construction",
+   "status": "too-few",
+   "stability": null,
+   "say": "too few to say (n=0 vs 0; needs 8 each)",
+   "nA": 0,
+   "nB": 0,
+   "medianA": null,
+   "medianB": null,
+   "p": null,
+   "pHolm": null,
+   "pBH": null,
+   "auc": null,
+   "delta": null,
+   "deltaLabel": null,
+   "ci": null,
+   "bmP": null,
+   "disputed": false,
+   "withinKind": "not testable within kind yet (under 8 a side in every kind)"
+  },
+  {
+   "question": "hook-quoted",
+   "ask": "Does a quoted or shouted line in the first line help? (B29R)",
+   "network": "tiktok",
+   "metric": "views",
+   "labels": [
+    "quoted/shouted line first",
+    "other first lines"
+   ],
+   "confound": "the TikTok outliers of 4-8 Oct are all quoted lines and all 17-19h",
+   "status": "none",
+   "stability": null,
+   "say": "no difference seen (p=0.38)",
+   "nA": 24,
+   "nB": 76,
+   "medianA": 3.5,
+   "medianB": 6,
+   "p": 0.3811462323262778,
+   "pHolm": 1,
+   "pBH": 0.5336047252567889,
+   "auc": 0.44106359649122806,
+   "delta": -0.11787280701754388,
+   "deltaLabel": "negligible (convention)",
+   "ci": {
+    "lo": -65.5,
+    "hi": 60
+   },
+   "bmP": 0.37967864350223457,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
+  },
+  {
+   "question": "hook-quoted",
+   "ask": "Does a quoted or shouted line in the first line help? (B29R)",
+   "network": "facebook",
+   "metric": "views",
+   "labels": [
+    "quoted/shouted line first",
+    "other first lines"
+   ],
+   "confound": "the TikTok outliers of 4-8 Oct are all quoted lines and all 17-19h",
+   "status": "weak",
+   "stability": null,
+   "say": "A beats B 60% of the time (p=0.043)",
+   "nA": 45,
+   "nB": 112,
+   "medianA": 214,
+   "medianB": 198,
+   "p": 0.04289979447171289,
+   "pHolm": 0.6005971226039805,
+   "pBH": 0.11261196048824633,
+   "auc": 0.6034722222222222,
+   "delta": 0.20694444444444438,
+   "deltaLabel": "small (convention)",
+   "ci": {
+    "lo": 1.5,
+    "hi": 67
+   },
+   "bmP": 0.047419116272262966,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
+  },
+  {
+   "question": "hook-quoted",
+   "ask": "Does a quoted or shouted line in the first line help? (B29R)",
+   "network": "youtube",
+   "metric": "views",
+   "labels": [
+    "quoted/shouted line first",
+    "other first lines"
+   ],
+   "confound": "the TikTok outliers of 4-8 Oct are all quoted lines and all 17-19h",
+   "status": "none",
+   "stability": null,
+   "say": "no difference seen (p=0.09)",
+   "nA": 28,
+   "nB": 71,
+   "medianA": 2.5,
+   "medianB": 4,
+   "p": 0.0851416792130599,
+   "pHolm": 1,
+   "pBH": 0.1929674607467934,
+   "auc": 0.3903420523138833,
+   "delta": -0.2193158953722334,
+   "deltaLabel": "small (convention)",
+   "ci": {
+    "lo": -5.5,
+    "hi": 1
+   },
+   "bmP": 0.05338071417212431,
+   "disputed": false,
+   "withinKind": "no kind supports it on its own"
   }
  ],
  "runs": [
@@ -606,6 +1632,260 @@
     "feed": "LAPTOP-0A6DECJ9",
     "seq": 40,
     "hash": "22359f711cfbc9d40f1b8eed07de495d8b9fdcdfc41942e51eb12a89b4c37082"
+   }
+  },
+  {
+   "at": "2026-10-29T02:48:46.558Z",
+   "comparable": 294,
+   "patterns": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "lead": [
+    "weekend/tiktok"
+   ],
+   "weak": [],
+   "confounded": [],
+   "disputed": [],
+   "stable": [
+    "slot-evening/facebook"
+   ],
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 74,
+    "hash": "ad30f5beb32ff49a3249ff7bd8817db40dc8c625897c91fe8ed47728b4faecd3"
+   }
+  },
+  {
+   "at": "2026-10-29T02:58:07.401Z",
+   "comparable": 356,
+   "patterns": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "lead": [
+    "slot-evening/tiktok",
+    "weekend/tiktok"
+   ],
+   "weak": [],
+   "confounded": [
+    "slot-evening/youtube"
+   ],
+   "disputed": [],
+   "stable": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 76,
+    "hash": "2893f6ea1790bde2426d449bb983d75ed839833524f5d08680ac9060ea0fb44a"
+   }
+  },
+  {
+   "at": "2026-10-29T03:08:14.072Z",
+   "comparable": 356,
+   "patterns": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "lead": [
+    "slot-evening/tiktok"
+   ],
+   "weak": [
+    "slot-evening/youtube",
+    "weekend/tiktok",
+    "hook-quoted/facebook"
+   ],
+   "confounded": [
+    "hook-question/facebook"
+   ],
+   "disputed": [],
+   "stable": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 77,
+    "hash": "6a4d06ea782353623fa9f0e6846a55fe8d45abc88a6db4a4cad64408ce650c93"
+   }
+  },
+  {
+   "at": "2026-10-29T03:14:33.908Z",
+   "comparable": 356,
+   "patterns": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "lead": [
+    "slot-evening/tiktok"
+   ],
+   "weak": [
+    "slot-evening/youtube",
+    "weekend/tiktok",
+    "hook-quoted/facebook"
+   ],
+   "confounded": [
+    "hook-question/facebook"
+   ],
+   "disputed": [],
+   "stable": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 78,
+    "hash": "2d898b00c2713616a26e38c97fbccc3d047dd8d538de2f8dbd8fe2a6e0bb66e2"
+   }
+  },
+  {
+   "at": "2026-10-29T03:16:32.632Z",
+   "comparable": 356,
+   "patterns": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "lead": [
+    "slot-evening/tiktok"
+   ],
+   "weak": [
+    "slot-evening/youtube",
+    "weekend/tiktok",
+    "hook-quoted/facebook"
+   ],
+   "confounded": [
+    "hook-question/facebook"
+   ],
+   "disputed": [],
+   "stable": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 79,
+    "hash": "8b2eff300ce33caf9bfd7b10fac66a2f91967edfac27ba40e4429fd0259ba9ed"
+   }
+  },
+  {
+   "at": "2026-10-29T03:18:15.076Z",
+   "comparable": 356,
+   "patterns": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "lead": [
+    "slot-evening/tiktok"
+   ],
+   "weak": [
+    "slot-evening/youtube",
+    "weekend/tiktok",
+    "hook-quoted/facebook"
+   ],
+   "confounded": [
+    "hook-question/facebook"
+   ],
+   "disputed": [],
+   "stable": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 80,
+    "hash": "d1ab904fa25a6b74af44b720e456a27601c34796cd4213fe8fdaa367155cef02"
+   }
+  },
+  {
+   "at": "2026-10-29T03:18:47.763Z",
+   "comparable": 356,
+   "patterns": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "lead": [
+    "slot-evening/tiktok"
+   ],
+   "weak": [
+    "cold-open/facebook",
+    "slot-evening/youtube",
+    "weekend/tiktok",
+    "hook-quoted/facebook"
+   ],
+   "confounded": [
+    "hook-question/facebook"
+   ],
+   "disputed": [],
+   "stable": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 81,
+    "hash": "4fe259645a714d46286601d8423277c64e58664b17087db6f2261e15a184a806"
+   }
+  },
+  {
+   "at": "2026-10-29T03:24:50.783Z",
+   "comparable": 356,
+   "patterns": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "lead": [
+    "slot-evening/tiktok"
+   ],
+   "weak": [
+    "cold-open/facebook",
+    "slot-evening/youtube",
+    "weekend/tiktok",
+    "hook-quoted/facebook"
+   ],
+   "confounded": [
+    "hook-question/facebook"
+   ],
+   "disputed": [],
+   "stable": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 82,
+    "hash": "42491a0b7783789431503845ba0f5d8e92ddf0ea584943fae75c774a4a790c1d"
+   }
+  },
+  {
+   "at": "2026-10-29T03:29:29.383Z",
+   "comparable": 356,
+   "patterns": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "lead": [
+    "slot-evening/tiktok"
+   ],
+   "weak": [
+    "cold-open/facebook",
+    "slot-evening/youtube",
+    "weekend/tiktok",
+    "hook-quoted/facebook"
+   ],
+   "confounded": [
+    "hook-question/facebook"
+   ],
+   "disputed": [],
+   "stable": [
+    "slot-evening/facebook",
+    "ai1-vs-cast/youtube"
+   ],
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 83,
+    "hash": "9a1e32033b460f3b8da5ad9963e051b698653782ef07e509300d73164a49c80c"
    }
   }
  ]
