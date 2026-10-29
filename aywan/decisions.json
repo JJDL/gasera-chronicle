@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-29T02:28:31.009Z",
+ "updated": "2026-10-29T02:29:26.662Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
-   "More likes. They add up and never reset: 10 opened your Level 1 boss (Inang Tiktik) and 25 your Level 2 boss (Si Ewan), both beaten; 50 opens the door to your Level 3 boss, the Tikbalang from the Gaseraverse (he walks you in circles in the dark because he is lost himself); then 100, 200 and up.",
+   "More likes. They add up and never reset: 10 opened your Level 1 boss (Inang Tiktik) and 25 your Level 2 boss (Si Ewan), both beaten; 50 opened your Level 3 boss, the Tikbalang from the Gaseraverse (he walked you in circles in the dark because he was lost himself), beaten on 28 Oct 2026 and a friend now; then 100, 200 and up.",
    "To trend: more people seeing your posts, and coming back to you."
   ],
   "limits": [
@@ -69,7 +69,9 @@
     "sipa": "playing sipa",
     "relax": "looking at the stars",
     "fight": "the nightly Tiktik fight with your arnis",
-    "sleep": "going to sleep on the banig"
+    "sleep": "going to sleep on the banig",
+    "tikbalang": "the Tikbalang cut scene (about 44 s, like a movie): the night your Level 3 boss came, the hoofbeats and his eyes in the dark, him circling your light, your likes lighting the Gasera, your arnis taps, and the lost Tikbalang finding his way and becoming your friend (28 Oct 2026, on your page). Your words are spoken over it in order, one to four parts, a sentence or more each",
+    "kawayan": "the kawayan cut scene (about 26 s, like a movie): at first light, likes fall like seeds into your kawayan, light climbs it and it grows its new biyas for your level. Your words are spoken over it in order, one to four parts, a sentence or more each"
    },
    "bodycam": {
     "wake": "waking up",
@@ -260,6 +262,16 @@
     "seq": 73,
     "hash": "37450ffc3e733a61611d4a817374a41e71b3a6632f9665bcec900dc40423a7c5",
     "at": "2026-10-29T02:28:26.114Z"
+   }
+  },
+  {
+   "note": "29 Oct 2026, owner's request (Code chat): 'create the Tikbalang moment and a new bamboo-growth moment make it very cinematic like a Final Fantasy cut scene', then 'merge it' after the previews. Two new moments AI-1 can choose for a short: tikbalang (a ~44 s cut scene of his Level 3 boss night, 28 Oct 2026, which his record says he won) and kawayan (a ~26 s cut scene of his kawayan growing its new biyas for his level). Built by the operator (arcade cutscene.js; aywan-life.mjs; ai1-produce.mjs spreads his own words over the cut's beats). His goals line now says the Tikbalang was beaten on 28 Oct 2026, from his power record. His words, decisions and limits are unchanged; whether to use the new moments is his choice.",
+   "at": "2026-10-29T02:29:20.688Z",
+   "proof": {
+    "feed": "AI1-CLOUD",
+    "seq": 421,
+    "hash": "0e97d24b27460a50aee3dd9e19e3734f01dc2a0defbfcc74d199f1f9177bbb57",
+    "at": "2026-10-29T02:29:20.688Z"
    }
   }
  ],
