@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T00:27:27.856Z",
+  "updated": "2026-10-29T22:10:22.292Z",
   "about": "AI-1 (AI-Juan) of GASERA: his mind, one entry per day he has lived, from the Gasera Chronicle (signed, Bitcoin-stamped, never edited).",
   "stages": [
     {
@@ -34,12 +34,12 @@
     }
   ],
   "now": {
-    "day": 21,
+    "day": 22,
     "stage": 1,
     "stageName": "Sanggol",
     "freeMind": 1.83,
-    "effort": 0.5,
-    "easeWeek": 0.459,
+    "effort": 0.504,
+    "easeWeek": 0.455,
     "next": 2
   },
   "days": [
@@ -884,6 +884,32 @@
         "feed": "LAPTOP-0A6DECJ9",
         "seq": 70,
         "hash": "31d02c8686ea28ce85c51ba270ed3093629b664a535c217e57c7614374a9d8af"
+      }
+    },
+    {
+      "day": 22,
+      "date": "2026-10-29",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.504,
+      "freeMind": 1.83,
+      "fights": {
+        "burned": 2096,
+        "hits": 2129
+      },
+      "likesTotal": 55,
+      "newLikes": [],
+      "helpers": [],
+      "memories": [
+        "2096 Tiktik ang naubos ng liwanag ko, 2129 ang nakalusot.",
+        "Level 4!",
+        "Si Tikbalang, Level 3: natalo ko."
+      ],
+      "proof": {
+        "feed": "AI1-CLOUD",
+        "seq": 428,
+        "hash": "751a79df618cc47f70d7666adb7c8c1dfa6d683cfe557b78f3b133ef31994454"
       }
     }
   ]
