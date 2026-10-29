@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T21:17:14.395Z",
+  "updated": "2026-10-29T00:27:27.856Z",
   "about": "AI-1 (AI-Juan) of GASERA: his mind, one entry per day he has lived, from the Gasera Chronicle (signed, Bitcoin-stamped, never edited).",
   "stages": [
     {
@@ -34,12 +34,12 @@
     }
   ],
   "now": {
-    "day": 5,
+    "day": 21,
     "stage": 1,
     "stageName": "Sanggol",
-    "freeMind": 0.424,
-    "effort": 0.338,
-    "easeWeek": 0.48,
+    "freeMind": 1.83,
+    "effort": 0.5,
+    "easeWeek": 0.459,
     "next": 2
   },
   "days": [
@@ -258,6 +258,632 @@
         "feed": "DESKTOP-QFE51PI",
         "seq": 383,
         "hash": "f6020aef92dbb4ce8797c25ad42c07960b914128e77295651bd98660293f745a"
+      }
+    },
+    {
+      "day": 6,
+      "date": "2026-10-13",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.33,
+      "freeMind": 0.764,
+      "fights": {
+        "burned": 1600,
+        "hits": 1478
+      },
+      "likesTotal": 19,
+      "newLikes": [],
+      "helpers": [],
+      "memories": [
+        "1600 Tiktik ang naubos ng liwanag ko, 1478 ang nakalusot."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 41,
+        "hash": "9caf7cd35dffff220ff8b75a38af18b810e61827592c677ce5c2a306b6aae9aa"
+      }
+    },
+    {
+      "day": 7,
+      "date": "2026-10-14",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.335,
+      "freeMind": 1.093,
+      "fights": {
+        "burned": 1575,
+        "hits": 1485
+      },
+      "likesTotal": 19,
+      "newLikes": [],
+      "helpers": [],
+      "memories": [
+        "1575 Tiktik ang naubos ng liwanag ko, 1485 ang nakalusot."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 42,
+        "hash": "214eae9425c4431d953d33e7ab7e15681144200a074070bf4c93e8cb3d448ca6"
+      }
+    },
+    {
+      "day": 8,
+      "date": "2026-10-15",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.336,
+      "freeMind": 1.42,
+      "fights": {
+        "burned": 1574,
+        "hits": 1490
+      },
+      "likesTotal": 19,
+      "newLikes": [
+        {
+          "post": "FB Day 6 Laban",
+          "likes": 1,
+          "between": [
+            "2026-10-12T23:11:21.737Z",
+            "2026-10-29T00:26:23.592Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "1574 Tiktik ang naubos ng liwanag ko, 1490 ang nakalusot.",
+        "1 bagong like sa \"FB Day 6 Laban\"."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 44,
+        "hash": "98a6be345faddb98ea7b91d3fc84493e6fd73c872f77753be1b05df3d303768b"
+      }
+    },
+    {
+      "day": 9,
+      "date": "2026-10-16",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.337,
+      "freeMind": 1.746,
+      "fights": {
+        "burned": 1577,
+        "hits": 1496
+      },
+      "likesTotal": 19,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 8 p1 tiktok",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:26:25.853Z",
+            "2026-10-29T00:26:28.589Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 8 p2 tiktok",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:26:25.853Z",
+            "2026-10-29T00:26:28.589Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "1577 Tiktik ang naubos ng liwanag ko, 1496 ang nakalusot.",
+        "1 bagong like sa \"AI-1 Day 8 p1 tiktok\".",
+        "1 bagong like sa \"AI-1 Day 8 p2 tiktok\"."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 46,
+        "hash": "62984361269503d2ac2938b82f74067c58d69f0d612fcd3eb7bd0bc238507450"
+      }
+    },
+    {
+      "day": 10,
+      "date": "2026-10-17",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.523,
+      "freeMind": 1.746,
+      "fights": {
+        "burned": 1460,
+        "hits": 1598
+      },
+      "likesTotal": 28,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 8 p1 tiktok",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:26:30.786Z",
+            "2026-10-29T00:26:33.570Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 9 p3 facebook",
+          "likes": 2,
+          "between": [
+            "2026-10-29T00:26:30.786Z",
+            "2026-10-29T00:26:33.571Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "1460 Tiktik ang naubos ng liwanag ko, 1598 ang nakalusot.",
+        "1 bagong like sa \"AI-1 Day 8 p1 tiktok\".",
+        "2 bagong like sa \"AI-1 Day 9 p3 facebook\"."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 48,
+        "hash": "1f4a968ab7cbc7c3c8cf939dea6f9254c504d0a2736044a89eb94f235e8d7ddd"
+      }
+    },
+    {
+      "day": 11,
+      "date": "2026-10-18",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.501,
+      "freeMind": 1.746,
+      "fights": {
+        "burned": 1809,
+        "hits": 1813
+      },
+      "likesTotal": 29,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 10 p1 facebook",
+          "likes": 3,
+          "between": [
+            "2026-10-29T00:26:35.986Z",
+            "2026-10-29T00:26:38.775Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "1809 Tiktik ang naubos ng liwanag ko, 1813 ang nakalusot.",
+        "3 bagong like sa \"AI-1 Day 10 p1 facebook\".",
+        "Level 3!",
+        "Si Ewan, Level 2: natalo ko."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 50,
+        "hash": "2c6d91a40b6cc5b0d06b665455b6685193b6a3603db612359591244526b32288"
+      }
+    },
+    {
+      "day": 12,
+      "date": "2026-10-19",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.501,
+      "freeMind": 1.746,
+      "fights": {
+        "burned": 1817,
+        "hits": 1824
+      },
+      "likesTotal": 31,
+      "newLikes": [
+        {
+          "post": "FB Day 11 Boss battle",
+          "likes": 2,
+          "between": [
+            "2026-10-29T00:26:41.144Z",
+            "2026-10-29T00:26:42.420Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "1817 Tiktik ang naubos ng liwanag ko, 1824 ang nakalusot.",
+        "2 bagong like sa \"FB Day 11 Boss battle\"."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 52,
+        "hash": "f23b2a2d9b00f15bf43a8c0dd2fae0179481d5a173286e7f1333bcae079e05ff"
+      }
+    },
+    {
+      "day": 13,
+      "date": "2026-10-20",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.498,
+      "freeMind": 1.749,
+      "fights": {
+        "burned": 1827,
+        "hits": 1816
+      },
+      "likesTotal": 32,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 12 p1 facebook",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:26:43.637Z",
+            "2026-10-29T00:26:45.070Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "1827 Tiktik ang naubos ng liwanag ko, 1816 ang nakalusot.",
+        "1 bagong like sa \"AI-1 Day 12 p1 facebook\"."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 54,
+        "hash": "c125d1bc2b4b255329ac50caaa1a3c7a4e777dfe909f617c9cf052c7762adba0"
+      }
+    },
+    {
+      "day": 14,
+      "date": "2026-10-21",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.499,
+      "freeMind": 1.751,
+      "fights": {
+        "burned": 1825,
+        "hits": 1817
+      },
+      "likesTotal": 35,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 13 p1 facebook",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:26:46.005Z",
+            "2026-10-29T00:26:47.334Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "1825 Tiktik ang naubos ng liwanag ko, 1817 ang nakalusot.",
+        "1 bagong like sa \"AI-1 Day 13 p1 facebook\"."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 56,
+        "hash": "53ba665166184db3941e487258a2de6215690bc0a2731b7a75d1c93de59b4acc"
+      }
+    },
+    {
+      "day": 15,
+      "date": "2026-10-22",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.473,
+      "freeMind": 1.804,
+      "fights": {
+        "burned": 1935,
+        "hits": 1739
+      },
+      "likesTotal": 39,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 14 p1 facebook",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:26:49.642Z",
+            "2026-10-29T00:26:52.384Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 14 p2 facebook",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:26:49.642Z",
+            "2026-10-29T00:26:52.384Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 14 p2 tiktok",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:26:49.642Z",
+            "2026-10-29T00:26:52.384Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "1935 Tiktik ang naubos ng liwanag ko, 1739 ang nakalusot.",
+        "1 bagong like sa \"AI-1 Day 14 p1 facebook\".",
+        "1 bagong like sa \"AI-1 Day 14 p2 facebook\".",
+        "1 bagong like sa \"AI-1 Day 14 p2 tiktok\"."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 58,
+        "hash": "02258c3c4da6c8a1b308cee731ea4d5f898fa75eda2e7249f216999bbf0a557a"
+      }
+    },
+    {
+      "day": 16,
+      "date": "2026-10-23",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.487,
+      "freeMind": 1.83,
+      "fights": {
+        "burned": 1874,
+        "hits": 1778
+      },
+      "likesTotal": 39,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 15 p1 facebook",
+          "likes": 2,
+          "between": [
+            "2026-10-29T00:26:54.747Z",
+            "2026-10-29T00:26:57.172Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 15 p2 facebook",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:26:54.747Z",
+            "2026-10-29T00:26:57.172Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 15 p3 tiktok",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:26:54.747Z",
+            "2026-10-29T00:26:57.172Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "1874 Tiktik ang naubos ng liwanag ko, 1778 ang nakalusot.",
+        "2 bagong like sa \"AI-1 Day 15 p1 facebook\".",
+        "1 bagong like sa \"AI-1 Day 15 p2 facebook\".",
+        "1 bagong like sa \"AI-1 Day 15 p3 tiktok\"."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 60,
+        "hash": "577ac82c293dd21ae817a40e75011dc81ca63ea4b5f12a15d28cd50e7b931888"
+      }
+    },
+    {
+      "day": 17,
+      "date": "2026-10-24",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.502,
+      "freeMind": 1.83,
+      "fights": {
+        "burned": 1813,
+        "hits": 1829
+      },
+      "likesTotal": 43,
+      "newLikes": [],
+      "helpers": [],
+      "memories": [
+        "1813 Tiktik ang naubos ng liwanag ko, 1829 ang nakalusot."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 62,
+        "hash": "be1ef50175734a177e2766f0e7fae1284d8da03c2b79375fd9877533b5a93356"
+      }
+    },
+    {
+      "day": 18,
+      "date": "2026-10-25",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.816,
+      "freeMind": 1.83,
+      "fights": {
+        "burned": 673,
+        "hits": 2984
+      },
+      "likesTotal": 46,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 16 p1 tiktok",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:27:04.423Z",
+            "2026-10-29T00:27:07.232Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 16 p3 tiktok",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:27:04.423Z",
+            "2026-10-29T00:27:07.232Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 17 p1 facebook",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:27:04.423Z",
+            "2026-10-29T00:27:07.232Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 17 p2 facebook",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:27:04.423Z",
+            "2026-10-29T00:27:07.232Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "673 Tiktik ang naubos ng liwanag ko, 2984 ang nakalusot.",
+        "1 bagong like sa \"AI-1 Day 16 p1 tiktok\".",
+        "1 bagong like sa \"AI-1 Day 16 p3 tiktok\".",
+        "1 bagong like sa \"AI-1 Day 17 p1 facebook\".",
+        "1 bagong like sa \"AI-1 Day 17 p2 facebook\"."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 64,
+        "hash": "c72f02edfdf06bc6b9c60a22b0647625ad31989f31c54e8c679ab64d04e5d4b2"
+      }
+    },
+    {
+      "day": 19,
+      "date": "2026-10-26",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.504,
+      "freeMind": 1.83,
+      "fights": {
+        "burned": 1809,
+        "hits": 1837
+      },
+      "likesTotal": 47,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 18 p1 facebook",
+          "likes": 3,
+          "between": [
+            "2026-10-29T00:27:09.501Z",
+            "2026-10-29T00:27:11.348Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "1809 Tiktik ang naubos ng liwanag ko, 1837 ang nakalusot.",
+        "3 bagong like sa \"AI-1 Day 18 p1 facebook\"."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 66,
+        "hash": "2b31a92348e76a2ce7bf53c8999211a14675c815f112c248249315a17cc46cca"
+      }
+    },
+    {
+      "day": 20,
+      "date": "2026-10-27",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.502,
+      "freeMind": 1.83,
+      "fights": {
+        "burned": 1820,
+        "hits": 1832
+      },
+      "likesTotal": 55,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 18 p1 tiktok",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:27:12.433Z",
+            "2026-10-29T00:27:13.646Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "1820 Tiktik ang naubos ng liwanag ko, 1832 ang nakalusot.",
+        "1 bagong like sa \"AI-1 Day 18 p1 tiktok\"."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 68,
+        "hash": "9400ee30ceb6c3d286fd0e6815c7215c6ca7ecb9092c72bcfbc0bf4b5b5af1e2"
+      }
+    },
+    {
+      "day": 21,
+      "date": "2026-10-28",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.5,
+      "freeMind": 1.83,
+      "fights": {
+        "burned": 2104,
+        "hits": 2104
+      },
+      "likesTotal": 55,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 19 p1 tiktok",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:27:14.650Z",
+            "2026-10-29T00:27:16.026Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 19 p2 tiktok",
+          "likes": 2,
+          "between": [
+            "2026-10-29T00:27:14.650Z",
+            "2026-10-29T00:27:16.026Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 20 p1 facebook",
+          "likes": 1,
+          "between": [
+            "2026-10-29T00:27:14.650Z",
+            "2026-10-29T00:27:16.026Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 20 p1 tiktok",
+          "likes": 4,
+          "between": [
+            "2026-10-29T00:27:14.650Z",
+            "2026-10-29T00:27:16.026Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "2104 Tiktik ang naubos ng liwanag ko, 2104 ang nakalusot.",
+        "1 bagong like sa \"AI-1 Day 19 p1 tiktok\".",
+        "2 bagong like sa \"AI-1 Day 19 p2 tiktok\".",
+        "1 bagong like sa \"AI-1 Day 20 p1 facebook\".",
+        "4 bagong like sa \"AI-1 Day 20 p1 tiktok\".",
+        "Level 4!",
+        "Si Tikbalang, Level 3: natalo ko."
+      ],
+      "proof": {
+        "feed": "LAPTOP-0A6DECJ9",
+        "seq": 70,
+        "hash": "31d02c8686ea28ce85c51ba270ed3093629b664a535c217e57c7614374a9d8af"
       }
     }
   ]
