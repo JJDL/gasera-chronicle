@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T00:55:18.149Z",
+ "updated": "2026-10-29T02:28:31.009Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -250,6 +250,16 @@
     "seq": 72,
     "hash": "340e92eb62230f4e14e6475915534e20503efa2336835f9e9a1e370e1e98ed9d",
     "at": "2026-10-29T00:28:27.317Z"
+   }
+  },
+  {
+   "note": "29 Oct 2026 10:28 PHT, with the owner's go: the live morning routine (trig_01HWXwwM3EG3frTh6aKH8YLg) now runs 'decide.mjs remember' before gather and 'decide.mjs consolidate' after learn, exactly as chronicle/aywan/ROUTINE.md. Nothing else in his world changed: same goals, limits, freedom, data. First run with the change: 06:07 PHT 30 Oct. Separately, the brand's rule-based GKOS view (Isip ng Gasera) was published next to his decisions in the chronicle repo; he never reads it.",
+   "at": "2026-10-29T02:28:26.114Z",
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 73,
+    "hash": "37450ffc3e733a61611d4a817374a41e71b3a6632f9665bcec900dc40423a7c5",
+    "at": "2026-10-29T02:28:26.114Z"
    }
   }
  ],
