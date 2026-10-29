@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T22:21:29.218Z",
+ "updated": "2026-10-29T22:22:04.917Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -12441,7 +12441,36 @@
      "at": "2026-10-29T22:21:13.282Z"
     }
    },
-   "answers": null,
+   "answers": {
+    "files": {
+     "q1.json": {
+      "sha256": "fd74a676a7837ec3d08e6f14c416d049934c820b74542d10479bdec24d646624",
+      "text": "{\"rows\":[[\"52\",\"1\",null,null,null,null,null,null],[\"92\",\"2\",null,null,null,null,null,null],[\"94\",\"2\",null,null,null,null,null,null],[\"54\",\"1\",null,null,null,null,null,null],[\"36\",\"0\",null,null,null,null,null,null],[\"73\",\"4\",null,null,null,null,null,null],[\"162\",\"2\",null,null,null,null,null,null],[\"113\",\"1\",null,null,null,null,null,null]]}"
+     },
+     "q2.json": {
+      "sha256": "6272a6b5960461bc2f1f8f1f639e1a3b8ad8ec96ed8d5f8367d586d79ad55218",
+      "text": "{\"rows\":[[\"1\",\"218\",\"0\",\"2\"],[\"0\",\"212\",\"0\",\"3\"],[\"1\",\"218\",\"0\",\"3\"],[\"0\",\"17\",\"0\",\"2\"],[\"0\",\"222\",\"0\",\"3\"],[\"0\",\"172\",\"0\",\"3\"],[\"0\",\"257\",\"0\",\"2\"],[\"0\",\"197\",\"0\",\"3\"],[\"1\",\"207\",\"0\",\"3\"],[\"0\",\"211\",\"0\",\"3\"],[\"0\",\"201\",\"0\",\"4\"],[\"0\",\"224\",\"0\",\"4\"],[\"0\",\"207\",\"0\",\"2\"],[\"0\",\"7\",\"0\",\"12\"],[\"1\",\"152\",\"0\",\"6\"]]}"
+     },
+     "q3.json": {
+      "sha256": "a218b4676b9369103acffb5fc42c3d74d4138075847a93cc25b93cf434e5110e",
+      "text": "{\n \"notAvailable\": \"there is no way to get this yet; the owner can see that you asked\"\n}"
+     },
+     "q4.json": {
+      "sha256": "a218b4676b9369103acffb5fc42c3d74d4138075847a93cc25b93cf434e5110e",
+      "text": "{\n \"notAvailable\": \"there is no way to get this yet; the owner can see that you asked\"\n}"
+     },
+     "q5.json": {
+      "sha256": "a0bf40d6d98f5fcd4a0e392841265b23c4c7ba932e159b5572716d588040db22",
+      "text": "{\n \"post\": \"AI-1 Day 22 p1 tiktok\",\n \"url\": \"https://www.tiktok.com/@gaseraverse/video/7701935007220108545\",\n \"likesNow\": 2,\n \"likesOverTime\": [\n  [\n   \"2026-10-29T07:26:24.969Z\",\n   2\n  ]\n ],\n \"metricool\": {\n  \"TKPO02\": \"20261029040137\",\n  \"TKPO03\": \"https://www.tiktok.com/@gaseraverse/video/7701935007220108545?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c\",\n  \"TKPO05\": \"Tanghali. Idlip muna sa duyan. 🌿 Ugoy… klop. 🐴 Mulat. Wala. Ugoy… klop-klop! Mulat. Wala. Ugoy… KLOP. …Duyan ko pala ang lumalangitngit. 😅 #GASERA #AIJuan #Day22 #PinoyHumor\",\n  \"TKPO06\": \"27\",\n  \"TKPO07\": \"92\",\n  \"TKPO08\": \"2\",\n  \"TKPO09\": \"0\",\n  \"TKPO10\": \"0\",\n  \"TKPO11\": null,\n  \"TKPO13\": null,\n  \"TKPO15\": null,\n  \"TKPO16\": null,\n  \"TKPO17\": null,\n  \"TKPO18\": null,\n  \"TKPO21\": null\n },\n \"chosenBy\": \"you (AI-1)\"\n}"
+     }
+    },
+    "proof": {
+     "feed": "AI1-CLOUD",
+     "seq": 435,
+     "hash": "6b04c9dbce81f96638a0297cdfb35317bc74a19fcdb6326285c82ba06660d932",
+     "at": "2026-10-29T22:21:50.846Z"
+    }
+   },
    "attempts": [],
    "proposed": null,
    "verdicts": [],
