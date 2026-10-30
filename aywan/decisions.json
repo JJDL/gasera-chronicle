@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T09:39:29.136Z",
+ "updated": "2026-10-30T22:10:07.941Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -12912,66 +12912,6 @@
       "seq": 461,
       "hash": "269f5409565f8e8726ff6518905a66fae31473aa7d9680b10528f81533b0ad95",
       "at": "2026-10-30T08:39:34.208Z"
-     }
-    },
-    {
-     "post": 2,
-     "url": "https://facebook.com/reel/1668269808341084",
-     "video": null,
-     "captionIsHis": true,
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 462,
-      "hash": "902bbafda893116b09bc40a692a9b3ab5581deb92cfd9f4f0d2186a7577ff0e8",
-      "at": "2026-10-30T09:38:57.823Z"
-     }
-    },
-    {
-     "post": 2,
-     "url": "https://www.youtube.com/shorts/z2_8285pYPs",
-     "video": null,
-     "captionIsHis": true,
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 463,
-      "hash": "4a6af6d6268af73216b4f51aa132a738bb2ead38bf80e7e5941280c89b7b7f66",
-      "at": "2026-10-30T09:39:09.230Z"
-     }
-    },
-    {
-     "post": 3,
-     "url": "https://www.tiktok.com/@gaseraverse/video/7702368491877305621",
-     "video": null,
-     "captionIsHis": true,
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 464,
-      "hash": "82c4650db0f404d39233d89831615a66f4970decf8cbbd1a1ccd5592dcbc9e36",
-      "at": "2026-10-30T09:39:16.139Z"
-     }
-    },
-    {
-     "post": 3,
-     "url": "https://facebook.com/reel/2178531939691314",
-     "video": null,
-     "captionIsHis": true,
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 465,
-      "hash": "213802968956e63f110f7cef3ef47bf92c6fe4b409f917cf2d4e41d86f77611f",
-      "at": "2026-10-30T09:39:21.716Z"
-     }
-    },
-    {
-     "post": 3,
-     "url": "https://www.youtube.com/shorts/VigQok8Wdmw",
-     "video": null,
-     "captionIsHis": true,
-     "proof": {
-      "feed": "AI1-CLOUD",
-      "seq": 466,
-      "hash": "e0ebca58145ccd169048fcbd428f06d3dec8de543664234c64385962d5d507c9",
-      "at": "2026-10-30T09:39:27.545Z"
      }
     }
    ],
