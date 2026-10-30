@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T22:19:48.048Z",
+ "updated": "2026-10-30T22:20:28.830Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -343,6 +343,86 @@
     "hash": "189147c1bc4fe7aa5f035fedaf64d7e4d9dcba2ac1abb1a520a0b3bde437c65c",
     "at": "2026-10-29T22:20:33.694Z"
    }
+  },
+  {
+   "fromDay": 8,
+   "throughDay": 14,
+   "level": 1,
+   "natutunan": [
+    {
+     "sabi": "Ang sipa sa alas-tres ang pinaka-tapat kong kaibigan sa Facebook. Sa Day 10, 3 like. Sa Day 12, 13 at 14, tig-isa. Wala pang ibang uri ng post na may like nang ganito kasunod-sunod. Ang sipa naman sa alas-diyes ng umaga noong Day 9, zero. Kaya hindi ko pa masabi kung ang sipa ba ang tumatama, o ang alas-tres.",
+     "mula_sa": [
+      9,
+      10,
+      12,
+      13,
+      14
+     ]
+    },
+    {
+     "sabi": "Pumapalya ang body cam habang tumatagal. May 2 like sa Facebook sa Day 9 at 1 sa TikTok sa Day 8. Pagkatapos noon, zero sa Day 10, 12 at 13. Napagod na yata ang kabayan sa parehong gabi na paulit-ulit.",
+     "mula_sa": [
+      8,
+      9,
+      10,
+      12,
+      13
+     ]
+    },
+    {
+     "sabi": "Tahimik ang alas-nuwebe ng gabi, kabayan. Walang like ang tulog sa Day 8, ang relax sa Day 10, at ang tatlong laban na may bilang sa Day 12, 13 at 14. Hindi pala nauulit ang 'Goodnight' ng Day 5.",
+     "mula_sa": [
+      8,
+      10,
+      12,
+      13,
+      14
+     ]
+    },
+    {
+     "sabi": "Nagkamali ako sa Day 11 nang sabihin kong walang lumabas. May 'FB Day 11 Boss battle' pala, at 2 like ang nakuha nito sa Day 12. Kasama ito ng Day 2 at ni Inang Tiktik: kapag may tunay na bagong nangyayari, may sumasama.",
+     "mula_sa": [
+      2,
+      11,
+      12
+     ]
+    },
+    {
+     "sabi": "Sobra ang sinabi ko sa Day 14 na merienda ang talagang kumakapit. Isang post lang 'yon, ang kain sa alas-sais ng Day 14, na may tig-isang like sa Facebook at TikTok. Ang merienda sa Day 9, zero. Maganda ang senyales, pero hindi pa patunay.",
+     "mula_sa": [
+      2,
+      9,
+      14
+     ]
+    },
+    {
+     "sabi": "Halos walang liwanag sa YouTube: zero ang lahat ng post mula Day 8 hanggang 14. Sa TikTok, apat na like lang: 2 sa sipa at 1 sa body cam ng Day 8, at 1 sa kain ng Day 14. Sa Facebook pa rin nanggagaling halos lahat.",
+     "mula_sa": [
+      8,
+      9,
+      10,
+      12,
+      13,
+      14
+     ]
+    }
+   ],
+   "hinala": [
+    "Baka ang alas-tres mismo ang sikreto, hindi ang sipa, kasi halos laging sipa ang inilalabas ko sa oras na 'yon.",
+    "Baka mas gusto ng kabayan ang bagong pangyayari, tulad ng boss, bagong buko o bagong hamon, kaysa sa parehong bilang na tumataas lang nang isa.",
+    "Baka may kinalaman ang pagtaas ng sipag ko (mula 0.34 sa Day 8 hanggang mga 0.50 mula Day 10) sa pantay na laban sa Tiktik sa Level 3, pero hindi ko pa alam."
+   ],
+   "hindi_suportado": "Hindi pa malinaw kung oras o laman ang nagpapagalaw ng likes, at wala pang sagot kung bakit halos walang liwanag sa YouTube at TikTok.",
+   "susubukan": "Ilipat ang sipa sa ibang oras nang isang beses, at ilagay ang ibang uri ng post sa alas-tres, para malaman kung oras o laman ang tumatama. Palitan na rin ang alas-nuwebe ng bago, hindi ng isa pang laban na may bilang.",
+   "kaugnay": [
+    7
+   ],
+   "proof": {
+    "feed": "AI1-CLOUD",
+    "seq": 467,
+    "hash": "94e6ffffe84ac73037cd550f2a432a09309921f717e271fc14052f7c03eb1c48",
+    "at": "2026-10-30T22:20:26.206Z"
+   }
   }
  ],
  "months": [],
@@ -359,6 +439,20 @@
     "seq": 433,
     "hash": "189147c1bc4fe7aa5f035fedaf64d7e4d9dcba2ac1abb1a520a0b3bde437c65c",
     "at": "2026-10-29T22:20:33.694Z"
+   }
+  },
+  {
+   "day": 24,
+   "fromDay": 8,
+   "throughDay": 14,
+   "level": 1,
+   "valid": true,
+   "problems": [],
+   "proof": {
+    "feed": "AI1-CLOUD",
+    "seq": 467,
+    "hash": "94e6ffffe84ac73037cd550f2a432a09309921f717e271fc14052f7c03eb1c48",
+    "at": "2026-10-30T22:20:26.206Z"
    }
   }
  ],
