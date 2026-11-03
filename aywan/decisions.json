@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:23:22.885Z",
+ "updated": "2026-11-03T12:51:19.782Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -272,6 +272,16 @@
     "seq": 421,
     "hash": "0e97d24b27460a50aee3dd9e19e3734f01dc2a0defbfcc74d199f1f9177bbb57",
     "at": "2026-10-29T02:29:20.688Z"
+   }
+  },
+  {
+   "note": "3 Nov 2026, owner's request (Code chat), picked from rated options after Days 25 and 27 had no posts (a short's spoken line over 220 characters): 'He fixes his own failed check, once, automatically', then 'merge it'. From Day 28: when AI-1's first decision of the day fails the checks, he is shown his own answer and exactly which checks failed, and answers once more; that fix is sealed as attempt 2 with the reason written in, and both attempts stay public. If the fix fails too, the day has no posts. His instructions now list the checks as numbers (and that a short may have several lines). His words, choices, goals and limits are unchanged.",
+   "at": "2026-11-03T12:51:11.459Z",
+   "proof": {
+    "feed": "AI1-CLOUD",
+    "seq": 533,
+    "hash": "4136c0304c97b91805ec166e4b92d2d2652f61ddbc72e8dceddcaa25bc60132a",
+    "at": "2026-11-03T12:51:11.459Z"
    }
   }
  ],
