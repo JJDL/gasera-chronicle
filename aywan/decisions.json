@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T04:39:48.101Z",
+ "updated": "2026-11-04T09:27:31.532Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -282,6 +282,16 @@
     "seq": 533,
     "hash": "4136c0304c97b91805ec166e4b92d2d2652f61ddbc72e8dceddcaa25bc60132a",
     "at": "2026-11-03T12:51:11.459Z"
+   }
+  },
+  {
+   "note": "The owner asked (4 Nov 2026, Code chat on LAPTOP-0A6DECJ9: 'i need a preview mp4 showcasing what has been accomplished so far but also make it as a montage that can be shared right now through metricool', then 'Yes, schedule it') for a 31 s preview montage of AWK, AI-Juan's world kit (his Ang Sulok rebuilt as toy-grade miniatures; 3D renders of a toy line in development; on-screen text only, no voice and none of his words). The operator (Claude Code, Opus 5.5) made it and scheduled it from the GASERA accounts: TikTok 17:45 (Metricool 416258800), Facebook Reel 17:47 (416259196), YouTube Short 17:49 (416259234) PHT. File: JJDL/gasera-releases tag aijuan-world-kit-preview, AIJuan_world_kit_preview.mp4, sha256 d8e3e3504f78d4ae7a2563ed59603dffed0894d3356d42d6be6d06d728e156ff. Not AI-1's post: not added to his posts list, so its likes do not count toward his level (the owner may decide otherwise).",
+   "at": "2026-11-04T09:27:28.509Z",
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 88,
+    "hash": "b711b314539cd5f23946b96397fb34d5353cc5c9f4ff30b7ca07d3015dd54bd9",
+    "at": "2026-11-04T09:27:28.509Z"
    }
   }
  ],
