@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-04T22:20:07.629Z",
-  "day": 29,
+  "updated": "2026-11-05T22:20:28.757Z",
+  "day": 30,
   "day1": "2026-10-08",
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "likes": {
-    "social": 73,
+    "social": 77,
     "site": 0,
-    "total": 73
+    "total": 77
   },
   "reactions": 9,
   "shares": 0,
-  "oil": 0,
-  "power": 9,
+  "oil": 1,
+  "power": 10,
   "level": 4,
   "nextAt": 100,
   "prevAt": 50,
   "posts": [],
   "care": {
-    "visitors": 0,
+    "visitors": 1,
     "story": 0,
     "eat": 0,
     "drink": 0,
@@ -25,7 +25,7 @@
     "pts": 0,
     "sleep": 0,
     "hilot": 0,
-    "laban": 0,
+    "laban": 1,
     "tabi": 0
   },
   "levelUp": false,
@@ -52,7 +52,7 @@
   ],
   "proof": {
     "feed": "AI1-CLOUD",
-    "seq": 553,
-    "hash": "95ce0582bab0209bd8821f415638cd47dd063af73df75cbd541670aee56a5577"
+    "seq": 577,
+    "hash": "20cd84eeb0edb3b0d1225aa19f018e59839fda7f409de4a06de3183f5d341245"
   }
 }
