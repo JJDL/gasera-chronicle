@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T10:39:44.699Z",
+ "updated": "2026-11-05T21:36:01.881Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -292,6 +292,16 @@
     "seq": 88,
     "hash": "b711b314539cd5f23946b96397fb34d5353cc5c9f4ff30b7ca07d3015dd54bd9",
     "at": "2026-11-04T09:27:28.509Z"
+   }
+  },
+  {
+   "note": "SWR-P1 (owner 5 Nov 2026, SWR-6/8: \"A, AI-Juan picks\"), two changes to AI-Juan's world by the operator (Claude Code, Opus 5.5, on LAPTOP-0A6DECJ9; workstation-projects 3ee5cf23). (1) New input: from Day 30 each morning's gather also saves trends.json in his data folder: the day's public trends in the Philippines, complete, unfiltered and in their own order: Google Trends PH (RSS, each trend with its news headlines and links) and X PH via trends24.in (every hourly list). A source that cannot be read says notAvailable. Facebook and Instagram publish no trend list; TikTok's needs a browser. His folder shows it as trendsToday, with theStone (what the stone is, as facts). (2) New field: his decision may carry stone: {trend, object, name, why}, his object of the day from the stone in Ang Sulok, in his own words; left out, the day is his espadang kawayan. New checks on that field only: a gun or blade only as a toy (10 Oct cannot-cut rule), no crime or death words, no real person's face or likeness, lengths, no links. A failed stone check fails the decision like any other, and his one self-fix applies. Its strength is a roll from his level (Seedborn), chosen by no one. His goals, limits, other prompts and the routine's prompt are unchanged; nothing he wrote was edited.",
+   "at": "2026-11-05T21:35:49.239Z",
+   "proof": {
+    "feed": "LAPTOP-0A6DECJ9",
+    "seq": 89,
+    "hash": "d9ec62f538db05f0317008806701d020a3049e5ca7d248fdf038784b15f0b6d6",
+    "at": "2026-11-05T21:35:49.239Z"
    }
   }
  ],
