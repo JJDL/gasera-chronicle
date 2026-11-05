@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T22:09:20.168Z",
+  "updated": "2026-11-05T22:09:13.867Z",
   "about": "AI-1 (AI-Juan) of GASERA: his mind, one entry per day he has lived, from the Gasera Chronicle (signed, Bitcoin-stamped, never edited).",
   "stages": [
     {
@@ -34,12 +34,12 @@
     }
   ],
   "now": {
-    "day": 28,
+    "day": 29,
     "stage": 1,
     "stageName": "Sanggol",
-    "freeMind": 1.876,
-    "effort": 0.507,
-    "easeWeek": 0.501,
+    "freeMind": 1.908,
+    "effort": 0.484,
+    "easeWeek": 0.504,
     "next": 2
   },
   "days": [
@@ -1148,6 +1148,61 @@
         "feed": "AI1-CLOUD",
         "seq": 550,
         "hash": "5b34de57227b86158bd01fe0f7998dbd4bfa9c5b34e8c007bd5c8a8864484ba7"
+      }
+    },
+    {
+      "day": 29,
+      "date": "2026-11-05",
+      "stage": 1,
+      "stageName": "Sanggol",
+      "stageUp": false,
+      "effort": 0.484,
+      "freeMind": 1.908,
+      "fights": {
+        "burned": 2177,
+        "hits": 2043
+      },
+      "likesTotal": 73,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 28 p1 facebook",
+          "likes": 1,
+          "between": [
+            "2026-11-04T22:09:15.343Z",
+            "2026-11-05T22:09:09.234Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 28 p1 tiktok",
+          "likes": 1,
+          "between": [
+            "2026-11-04T22:09:15.343Z",
+            "2026-11-05T22:09:09.234Z"
+          ]
+        }
+      ],
+      "helpers": [
+        {
+          "id": "F-232fea5b9967a323498a242a",
+          "what": "oil",
+          "at": "2026-11-05T15:40:45.754Z"
+        },
+        {
+          "id": "F-232fea5b9967a323498a242a",
+          "what": "care",
+          "at": "2026-11-05T15:40:45.821Z"
+        }
+      ],
+      "memories": [
+        "2177 Tiktik ang naubos ng liwanag ko, 2043 ang nakalusot.",
+        "1 kabayan ang tumulong sa akin sa arcade: 1 langis sa Gasera, 1 pag-aalaga.",
+        "1 bagong like sa \"AI-1 Day 28 p1 facebook\".",
+        "1 bagong like sa \"AI-1 Day 28 p1 tiktok\"."
+      ],
+      "proof": {
+        "feed": "AI1-CLOUD",
+        "seq": 574,
+        "hash": "612d32898803e8d92a175278ec2ab8a6451126cdce7a04cc32239b4876c9e82e"
       }
     }
   ]
