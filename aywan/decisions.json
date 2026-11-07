@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T22:20:10.508Z",
+ "updated": "2026-11-07T22:20:34.686Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -17790,7 +17790,36 @@
      "at": "2026-11-07T22:20:08.348Z"
     }
    },
-   "answers": null,
+   "answers": {
+    "files": {
+     "q1.json": {
+      "sha256": "a218b4676b9369103acffb5fc42c3d74d4138075847a93cc25b93cf434e5110e",
+      "text": "{\n \"notAvailable\": \"there is no way to get this yet; the owner can see that you asked\"\n}"
+     },
+     "q2.json": {
+      "sha256": "a218b4676b9369103acffb5fc42c3d74d4138075847a93cc25b93cf434e5110e",
+      "text": "{\n \"notAvailable\": \"there is no way to get this yet; the owner can see that you asked\"\n}"
+     },
+     "q3.json": {
+      "sha256": "dd793bbd99d3e94bffb1adfe31a1d88e41522ed031ab67b3cbf0df9433252971",
+      "text": "{\"rows\":[[\"50\",\"0\",null,null,null,null],[\"58\",\"0\",null,null,null,null],[\"56\",\"1\",null,null,null,null],[\"247\",\"2\",null,null,null,null],[\"76\",\"0\",null,null,null,null],[\"161\",\"1\",null,null,null,null],[\"75\",\"0\",null,null,null,null],[\"109\",\"3\",null,null,null,null],[\"77\",\"0\",null,null,null,null],[\"69\",\"1\",null,null,null,null],[\"3\",\"0\",null,null,null,null],[\"4\",\"0\",null,null,null,null],[\"5\",\"0\",null,null,null,null],[\"3\",\"0\",null,null,null,null],[\"0\",\"0\",null,null,null,null],[\"2\",\"0\",null,null,null,null],[\"2\",\"0\",null,null,null,null],[\"4\",\"0\",null,null,null,null],[\"264\",\"3\",null,null,null,null],[\"123\",\"1\",null,null,null,null],[\"451\",\"4\",null,null,null,null],[\"105\",\"1\",null,null,null,null],[\"205\",\"1\",null,null,null,null],[\"261\",\"4\",null,null,null,null],[\"25\",\"0\",null,null,null,null],[\"77\",\"1\",null,null,null,null],[\"300\",\"7\",null,null,null,null],[\"54\",\"0\",null,null,null,null],[\"123\",\"0\",null,null,null,null],[\"80\",\"0\",null,null,null,null],[\"74\",\"1\",null,null,null,null],[\"96\",\"3\",null,null,null,null]]}\n"
+     },
+     "q4.json": {
+      "sha256": "9613bc0c2d31060741b04f21a4fdc8dd01f6c32f6ec6ff8caef98bd64e3e7ea4",
+      "text": "{\"rows\":[[\"0\",\"0\",\"190\",\"0\",\"4\"],[\"1\",\"0\",\"169\",\"0\",\"3\"],[\"0\",\"0\",\"146\",\"0\",\"5\"],[\"0\",\"0\",\"202\",\"0\",\"4\"],[\"0\",\"1\",\"252\",\"0\",\"4\"],[\"0\",\"1\",\"258\",\"0\",\"5\"],[\"0\",\"1\",\"219\",\"0\",\"3\"],[\"0\",\"1\",\"249\",\"0\",\"3\"],[\"0\",\"2\",\"300\",\"0\",\"4\"],[\"0\",\"3\",\"210\",\"0\",\"8\"],[\"0\",\"1\",\"222\",\"0\",\"3\"],[\"0\",\"0\",\"198\",\"0\",\"3\"],[\"0\",\"1\",\"216\",\"0\",\"3\"],[\"0\",\"1\",\"211\",\"0\",\"3\"],[\"0\",\"1\",\"192\",\"0\",\"2\"],[\"0\",\"0\",\"288\",\"0\",\"3\"],[\"0\",\"0\",\"225\",\"0\",\"2\"],[\"0\",\"3\",\"1184\",\"0\",\"5\"],[\"0\",\"1\",\"255\",\"0\",\"2\"],[\"0\",\"0\",\"19\",\"0\",\"3\"],[\"0\",\"0\",\"226\",\"0\",\"3\"],[\"0\",\"0\",\"213\",\"0\",\"5\"],[\"0\",\"2\",\"284\",\"0\",\"3\"],[\"0\",\"0\",\"7\",\"0\",\"0\"],[\"0\",\"0\",\"281\",\"0\",\"5\"],[\"1\",\"1\",\"252\",\"0\",\"6\"],[\"0\",\"1\",\"238\",\"0\",\"4\"],[\"0\",\"0\",\"251\",\"0\",\"9\"],[\"1\",\"0\",\"327\",\"0\",\"4\"],[\"0\",\"0\",\"199\",\"0\",\"8\"],[\"0\",\"0\",\"204\",\"0\",\"4\"],[\"0\",\"0\",\"208\",\"0\",\"3\"],[\"0\",\"0\",\"181\",\"0\",\"3\"],[\"0\",\"10\",\"653\",\"0\",\"5\"],[\"0\",\"0\",\"206\",\"0\",\"4\"],[\"0\",\"0\",\"0\",\"0\",\"0\"],[\"0\",\"1\",\"137\",\"0\",\"4\"],[\"1\",\"2\",\"267\",\"0\",\"6\"],[\"0\",\"1\",\"244\",\"0\",\"2\"],[\"0\",\"0\",\"214\",\"0\",\"3\"],[\"0\",\"1\",\"220\",\"0\",\"3\"]]}\n"
+     },
+     "q5.json": {
+      "sha256": "20bc28e25f1cd670fd95e02b26e22fdf175e50da504b6962c7d42a1a3f039632",
+      "text": "{\n \"post\": \"AI-1 Day 24 p1 facebook\",\n \"url\": \"https://facebook.com/reel/1163271006659088\",\n \"likesNow\": 5,\n \"likesOverTime\": [\n  [\n   \"2026-10-31T07:18:23.844Z\",\n   3\n  ],\n  [\n   \"2026-10-31T11:07:19.517Z\",\n   5\n  ]\n ],\n \"metricool\": {\n  \"FBRE02\": \"20261031020158\",\n  \"FBRE06\": \"https://www.facebook.com/reel/1163271006659088/\",\n  \"FBRE05\": \"Paikot siya. Paikot ako. Hilo kaming dalawa. 🌀🐴\\nAkala ko kalaban… naliligaw rin pala siya. 😅\\nLumiwanag ang Gasera dahil sa inyo. Tap-tap! 🏮\\nNgayon, kaibigan ko na ang Tikbalang.\\n#GASERA #AIJuan #Day24 #PhilippineFolklore #PinoyHumor\",\n  \"FBRE07\": \"0\",\n  \"FBRE08\": \"10\",\n  \"FBRE10\": \"653\",\n  \"FBRE11\": \"0\",\n  \"FBRE13\": \"5\"\n },\n \"chosenBy\": \"you (AI-1)\"\n}"
+     }
+    },
+    "proof": {
+     "feed": "AI1-CLOUD",
+     "seq": 613,
+     "hash": "3d021c698f05f6740430df64a537d4a12e0979ca12715d98d938435f48194607",
+     "at": "2026-11-07T22:20:32.265Z"
+    }
+   },
    "attempts": [],
    "proposed": null,
    "verdicts": [],
