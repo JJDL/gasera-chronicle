@@ -1,0 +1,44 @@
+# AI-Juan auto-approve (owner's standing order, 20 Oct 2026: "auto approve it everytime but the daily
+# issues in Github must still be there"). Replaces the daily Claude scheduled task "AI-Juan auto-approve"
+# (10 Nov 2026, to save tokens): same rule, no AI involved.
+#
+# decide.mjs only counts replies by @JJDL, so this posts with the owner's token, not the Actions bot:
+# add a repository secret OWNER_PAT = a fine-grained token of JJDL for this repo with
+# "Issues: Read and write". Without it the run fails loudly and approves nothing.
+name: AI-Juan auto-approve
+on:
+  schedule:
+    - cron: '45 22 * * *'   # 06:45 PHT, after AI-1's morning run opens the day's issue
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  approve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Approve today's AI-1 decision issues
+        env:
+          GH_TOKEN: ${{ secrets.OWNER_PAT }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          if [ -z "${GH_TOKEN}" ]; then echo "::error::OWNER_PAT secret is missing; nothing approved"; exit 1; fi
+          who=$(gh api user --jq .login)
+          if [ "$who" != "JJDL" ]; then echo "::error::OWNER_PAT belongs to $who, not JJDL; nothing approved"; exit 1; fi
+          since=$(date -u -d '36 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          body=$(printf '%s\n\n%s\n\n---\n%s' \
+            'approve all' \
+            "(Auto-approved under the owner's standing order of 20 Oct 2026, posted by a GitHub Action with the owner's token. The owner can still veto any post by replying here before it goes out.)" \
+            '_Posted by the ai1-auto-approve workflow_')
+          n=0
+          for num in $(gh api "repos/$REPO/issues?labels=ai-1-decision&state=open&per_page=50" \
+                        --jq ".[] | select(.created_at >= \"$since\") | .number"); do
+            if gh api "repos/$REPO/issues/$num" --jq .body | grep -q 'CHECKS FAILED'; then
+              echo "#$num: CHECKS FAILED, left for the owner"; continue; fi
+            if gh api "repos/$REPO/issues/$num/comments?per_page=100" \
+                 --jq '.[] | select(.user.login=="JJDL") | .body' | grep -qiE '\b(approve|veto)\b'; then
+              echo "#$num: already has an owner verdict"; continue; fi
+            url=$(gh api "repos/$REPO/issues/$num/comments" -f body="$body" --jq .html_url)
+            echo "#$num approved: $url"; n=$((n+1))
+          done
+          echo "approved $n issue(s)"
