@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T22:09:13.280Z",
+ "updated": "2026-11-11T22:19:43.374Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -19709,6 +19709,85 @@
      }
     }
    ],
+   "learned": null
+  },
+  {
+   "day": 36,
+   "data": {
+    "files": [
+     {
+      "path": "chronicle/aywan/data/day_036/METRICOOL_TODO.json",
+      "sha256": "e854b7a7091f96a4dd144ccf79af43112e366aa8980bc012dccec5ae53a35b48"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/arcade.json",
+      "sha256": "9f5439ef0043bc4f092641b9063baacb1e9a23dd2100a06ea9d26cc10e9092b4"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/likes.json",
+      "sha256": "3ffb81fe66f1887bcebf950525a611f123496c04d9a9bb44ea161a062c0881bb"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/likes_over_time.json",
+      "sha256": "104d1a6ad4a142c9a521a70d94b7e34f22bbf9e336f2519acb9a989a8cc7844b"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/metricool/besttimes_facebook.json",
+      "sha256": "7dae6565d35dd399c697837b2ef03e81d063ef7b32ec93b1ffda2b5f49e8c2ce"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/metricool/besttimes_tiktok.json",
+      "sha256": "c82c381775e276a8b352808c4856932fddcf833dbaa7762ec23b1581f254f02a"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/metricool/besttimes_youtube.json",
+      "sha256": "4becfe0f45e19e04e0226f41f9a20b3013f3acbfc9dc14d4cab4eb9d18e2cfcc"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/metricool/facebook.json",
+      "sha256": "0d041bf3c433a07710534f3c4a7838199d979040a8566d6f1affb41a576737f2"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/metricool/tiktok.json",
+      "sha256": "23a1b696bce6e7a9e76fdcbbe72ff4989fbbf16cb82011f1ecb9bc04caf8f358"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/metricool/youtube.json",
+      "sha256": "a1efbbf11a9e764a3625a786c577b2c7157670697c15e953d14b9cba095551b5"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/mind.json",
+      "sha256": "08317f915d00e27569ebc0c58f06d2d681174f009221f3e7d58362772ef9cdb3"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/posts.json",
+      "sha256": "7bddf7df30bc040357dc6d0ce0a651237846d2638bed1bcbdbd85762fc609fc5"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/record.json",
+      "sha256": "2662c443b145de01b61a6758925ac2fc4f1f8b8a5543c18862d679daf77bd0d1"
+     },
+     {
+      "path": "chronicle/aywan/data/day_036/trends.json",
+      "sha256": "362d59bfaf79f303ca3ff86634c111a010e471d9aa8babf80be4d3c1845b065a"
+     }
+    ],
+    "proof": {
+     "feed": "AI1-CLOUD",
+     "seq": 684,
+     "hash": "69891c1b2fe007d5506b7112b6d67da60227637a1921923807bf636aa8434a6f",
+     "at": "2026-11-11T22:19:41.111Z"
+    }
+   },
+   "asked": null,
+   "answers": null,
+   "attempts": [],
+   "proposed": null,
+   "verdicts": [],
+   "ownerNotes": [],
+   "made": [],
+   "scheduled": [],
+   "posted": [],
    "learned": null
   }
  ]
