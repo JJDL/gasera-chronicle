@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T00:52:05.929Z",
+ "updated": "2026-11-13T00:55:09.768Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -20968,6 +20968,21 @@
       "hash": "184703c946091c83907d406cfc02c2f24b4f8556e5d07c932aded15c304ce26a",
       "at": "2026-11-13T00:49:11.860Z"
      }
+    },
+    {
+     "post": 2,
+     "video": {
+      "sha256": "223f9c5741034890f971048ffbe5fae747e3b341c0bcd354e2ce702e91c2737a",
+      "bytes": 7587459,
+      "url": "https://raw.githubusercontent.com/JJDL/gasera-releases/media/aywan/AIJuan_ai1_day_037_p2.mp4"
+     },
+     "at": "2026-11-13T18:00:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 723,
+      "hash": "98cde3c2f6b30f568c7af359970fe127770461142bd63c8149840d7204022607",
+      "at": "2026-11-13T00:54:42.423Z"
+     }
     }
    ],
    "scheduled": [
@@ -21005,6 +21020,18 @@
       "seq": 722,
       "hash": "926b1868369d448b24a735c6a316bed9945ae75b2d244ffd1303f04e99579c04",
       "at": "2026-11-13T00:52:03.551Z"
+     }
+    },
+    {
+     "post": 2,
+     "network": "tiktok",
+     "metricoolId": "426417090",
+     "at": "2026-11-13T18:00:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 724,
+      "hash": "98b2dce98715ba36e10f1ee6f6520edaea5877cf3222fdd7223dfaa60d6405f7",
+      "at": "2026-11-13T00:55:07.499Z"
      }
     }
    ],
