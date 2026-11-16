@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:23:15.026Z",
+ "updated": "2026-11-16T00:38:52.803Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -22967,7 +22967,36 @@
      "at": "2026-11-15T22:23:12.695Z"
     }
    },
-   "verdicts": [],
+   "verdicts": [
+    {
+     "post": 1,
+     "verdict": "approve",
+     "reason": "",
+     "at": "2026-11-15T22:53:46Z",
+     "comment": "https://github.com/JJDL/gasera-chronicle/issues/31#issuecomment-6902737599",
+     "textSha256": "c9957083006a8307c64f58cf9318162a15893981f6452683d3c6669a7334f442",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 792,
+      "hash": "ead00827618459bab938e86e76d3127b7618eb56bee6c9d7412725ee9fa4da3c",
+      "at": "2026-11-16T00:38:44.757Z"
+     }
+    },
+    {
+     "post": 2,
+     "verdict": "approve",
+     "reason": "",
+     "at": "2026-11-15T22:53:46Z",
+     "comment": "https://github.com/JJDL/gasera-chronicle/issues/31#issuecomment-6902737599",
+     "textSha256": "c9957083006a8307c64f58cf9318162a15893981f6452683d3c6669a7334f442",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 793,
+      "hash": "4ca6f815e97bed57768e26e07c7680e833e1e92106789ee1f0a51ccb11e787a3",
+      "at": "2026-11-16T00:38:44.791Z"
+     }
+    }
+   ],
    "ownerNotes": [],
    "made": [],
    "scheduled": [],
