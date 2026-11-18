@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T22:09:14.764Z",
+  "updated": "2026-11-18T22:10:17.518Z",
   "about": "AI-1 (AI-Juan) of GASERA: his mind, one entry per day he has lived, from the Gasera Chronicle (signed, Bitcoin-stamped, never edited).",
   "stages": [
     {
@@ -34,11 +34,11 @@
     }
   ],
   "now": {
-    "day": 41,
+    "day": 42,
     "stage": 2,
     "stageName": "Nakakahinga",
-    "freeMind": 2.031,
-    "effort": 0.479,
+    "freeMind": 2.034,
+    "effort": 0.499,
     "easeWeek": 0.503,
     "next": 6
   },
@@ -1663,6 +1663,58 @@
         "feed": "AI1-CLOUD",
         "seq": 833,
         "hash": "0c0f83a875337aaa40cf269e0ca168dc9602e319d39202639f365e587acec29d"
+      }
+    },
+    {
+      "day": 42,
+      "date": "2026-11-18",
+      "stage": 2,
+      "stageName": "Nakakahinga",
+      "stageUp": false,
+      "effort": 0.499,
+      "freeMind": 2.034,
+      "fights": {
+        "burned": 2106,
+        "hits": 2095
+      },
+      "likesTotal": 99,
+      "newLikes": [
+        {
+          "post": "AI-1 Day 40 p2 tiktok",
+          "likes": 1,
+          "between": [
+            "2026-11-17T22:09:07.138Z",
+            "2026-11-18T22:10:07.352Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 41 p1 tiktok",
+          "likes": 1,
+          "between": [
+            "2026-11-17T22:09:07.138Z",
+            "2026-11-18T22:10:07.352Z"
+          ]
+        },
+        {
+          "post": "AI-1 Day 41 p2 facebook",
+          "likes": 2,
+          "between": [
+            "2026-11-17T22:09:07.138Z",
+            "2026-11-18T22:10:07.352Z"
+          ]
+        }
+      ],
+      "helpers": [],
+      "memories": [
+        "2106 Tiktik ang naubos ng liwanag ko, 2095 ang nakalusot.",
+        "1 bagong like sa \"AI-1 Day 40 p2 tiktok\".",
+        "1 bagong like sa \"AI-1 Day 41 p1 tiktok\".",
+        "2 bagong like sa \"AI-1 Day 41 p2 facebook\"."
+      ],
+      "proof": {
+        "feed": "AI1-CLOUD",
+        "seq": 839,
+        "hash": "1a5314e53de4d9e0a4a81976fc9d22fa8d8de01f075655f496eea898f34ac6ee"
       }
     }
   ]
