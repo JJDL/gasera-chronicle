@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:09:26.507Z",
+ "updated": "2026-11-19T22:24:46.896Z",
  "about": "The inputs of AI-Juan's stone (his object of the day), from his signed record: per day his first valid decision's earliest post and his stone pick, unchanged, and his level that morning. Built from decisions.json by the same rules as Seedborn's stoneCompactDay(); the proof is the decision's entry in the Gasera Chronicle.",
  "days": [
   {
@@ -1447,6 +1447,12 @@
      }
     }
    ]
+  },
+  {
+   "day": 44,
+   "date": "2026-11-20",
+   "level": null,
+   "attempts": []
   }
  ]
 }
