@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:25:50.848Z",
+ "updated": "2026-11-19T22:26:10.741Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -25109,7 +25109,32 @@
      "at": "2026-11-19T22:25:48.813Z"
     }
    },
-   "answers": null,
+   "answers": {
+    "files": {
+     "q1.json": {
+      "sha256": "a218b4676b9369103acffb5fc42c3d74d4138075847a93cc25b93cf434e5110e",
+      "text": "{\n \"notAvailable\": \"there is no way to get this yet; the owner can see that you asked\"\n}"
+     },
+     "q2.json": {
+      "sha256": "a218b4676b9369103acffb5fc42c3d74d4138075847a93cc25b93cf434e5110e",
+      "text": "{\n \"notAvailable\": \"there is no way to get this yet; the owner can see that you asked\"\n}"
+     },
+     "q3.json": {
+      "sha256": "a218b4676b9369103acffb5fc42c3d74d4138075847a93cc25b93cf434e5110e",
+      "text": "{\n \"notAvailable\": \"there is no way to get this yet; the owner can see that you asked\"\n}"
+     },
+     "q4.json": {
+      "sha256": "689e24c9c3639528e6024dbed59714220dde79f1d53bf98e372385acdaa3e1a5",
+      "text": "{\"rows\":[[\"20261119103055\",\"34\",\"24\",\"0\",null,null,null],[\"20261119040253\",\"37\",\"48\",\"0\",null,null,null],[\"20261117103051\",\"34\",\"38\",\"0\",null,null,null],[\"20261117040223\",\"28\",\"85\",\"1\",null,null,null],[\"20261116103109\",\"28\",\"31\",\"1\",null,null,null],[\"20261116040234\",\"25\",\"68\",\"1\",null,null,null],[\"20261115113122\",\"21\",\"77\",\"0\",null,null,null],[\"20261115040145\",\"22\",\"65\",\"0\",null,null,null],[\"20261114100428\",\"29\",\"30\",\"0\",null,null,null],[\"20261114040201\",\"28\",\"72\",\"3\",null,null,null],[\"20261113100429\",\"27\",\"61\",\"0\",null,null,null],[\"20261113043103\",\"29\",\"78\",\"1\",null,null,null],[\"20261112103136\",\"20\",\"161\",\"1\",null,null,null],[\"20261112100318\",\"21\",\"119\",\"1\",null,null,null],[\"20261112043059\",\"26\",\"136\",\"2\",null,null,null]]}\n"
+     }
+    },
+    "proof": {
+     "feed": "AI1-CLOUD",
+     "seq": 869,
+     "hash": "b6a83fa9e6c44c6145707ceb0fedf9f6dabaac1e0864c4be73820f651b6ef222",
+     "at": "2026-11-19T22:26:08.272Z"
+    }
+   },
    "attempts": [],
    "proposed": null,
    "verdicts": [],
