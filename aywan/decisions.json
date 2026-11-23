@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:39:05.606Z",
+ "updated": "2026-11-23T00:57:49.192Z",
  "about": "AI-1 (AI-Juan) decides his own posts. His data folder, his questions and their answers, every decision attempt (with every web search he made), the owner's approve/veto, what went out and what he learned are entries in the Gasera Chronicle (signed, Bitcoin-stamped, never edited); the texts are here so anyone can re-hash them against the proofs. This proves the process (he chose, before the post, from real numbers, and no one rewrote him), not consciousness.",
  "rules": {
   "goals": [
@@ -27328,8 +27328,52 @@
     }
    ],
    "ownerNotes": [],
-   "made": [],
-   "scheduled": [],
+   "made": [
+    {
+     "post": 1,
+     "video": {
+      "sha256": "bf1ce0b09cc99c88389f6faffb8da608480aeead7fadea8df230eaa54840f31a",
+      "bytes": 21981631,
+      "url": "https://raw.githubusercontent.com/JJDL/gasera-releases/media/aywan/AIJuan_ai1_day_047_p1.mp4"
+     },
+     "at": "2026-11-23T12:00:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 950,
+      "hash": "cecaa95d46fdf44fefd45756f8061b55a61c91cc957d99b78dacc1c4a3aa7a27",
+      "at": "2026-11-23T00:49:59.779Z"
+     }
+    },
+    {
+     "post": 2,
+     "video": {
+      "sha256": "54c22c2fb818ba075c877ad4527531265aa7ec2e7f8426cf6aba6237b175adce",
+      "bytes": 9570608,
+      "url": "https://raw.githubusercontent.com/JJDL/gasera-releases/media/aywan/AIJuan_ai1_day_047_p2.mp4"
+     },
+     "at": "2026-11-23T18:30:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 951,
+      "hash": "448db12175142bb2da383d47c3df2e6c8085dac1c70af4b1aa03e523053ba758",
+      "at": "2026-11-23T00:57:03.909Z"
+     }
+    }
+   ],
+   "scheduled": [
+    {
+     "post": 1,
+     "network": "tiktok",
+     "metricoolId": "438144724",
+     "at": "2026-11-23T12:00:00+08:00",
+     "proof": {
+      "feed": "AI1-CLOUD",
+      "seq": 952,
+      "hash": "a977a28b7b87f06d69ce5769fa504392b846629e55616fcbe2f05cb0e74d7e02",
+      "at": "2026-11-23T00:57:46.856Z"
+     }
+    }
+   ],
    "posted": [],
    "learned": null
   }
